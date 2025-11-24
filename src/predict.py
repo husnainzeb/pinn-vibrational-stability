@@ -5,6 +5,7 @@ Script to load a trained model checkpoint, evaluate its performance on a
 benchmark dataset, and save the results with predictions to a new CSV file.
 """
 
+import json
 import logging
 import sys
 from pathlib import Path
@@ -20,15 +21,17 @@ from sklearn.preprocessing import StandardScaler
 from model import BalancedMLP
 
 # --- Configuration ---
-CONFIG: Dict[str, Any] = {
-    "paths": {
-        "model_checkpoint": Path(
-            "./models/physics_informed_model_checkpoint_seed_3141.pth"
-        ),
-        "benchmark_data": Path("./datasets/benchmark_dataset.csv"),
-        "output_results_csv": Path("./datasets/benchmark_results.csv"),
-    }
-}
+def load_config(config_path: Path) -> Dict[str, Any]:
+    with open(config_path, "r") as f:
+        return json.load(f)
+
+CONFIG_PATH = Path(__file__).parent.parent / "configs" / "config.json"
+CONFIG = load_config(CONFIG_PATH)
+
+# Convert path strings to Path objects
+CONFIG["paths"]["model_checkpoint"] = Path(CONFIG["paths"]["model_checkpoint"])
+CONFIG["paths"]["benchmark_data"] = Path(CONFIG["paths"]["benchmark_data"])
+CONFIG["paths"]["output_results_csv"] = Path(CONFIG["paths"]["output_results_csv"])
 
 # --- Logger Setup ---
 logging.basicConfig(
