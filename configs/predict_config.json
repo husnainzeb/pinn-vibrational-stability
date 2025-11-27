@@ -1,0 +1,8 @@
+{
+    "paths": {
+        "model_checkpoint": "models/physics_informed_model_checkpoint_seed_17.pth",
+        "new_data_csv": "datasets/benchmark.csv",
+        "results_dir": "results",
+        "output_filename": "benchmark_results.csv"
+    }
+}

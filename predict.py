@@ -1,10 +1,5 @@
-# predict.py
-
-"""
-Script to load a trained model checkpoint, evaluate its performance on a
-benchmark dataset, and save the results with predictions to a new CSV file.
-"""
-
+import argparse
+import json
 import logging
 import sys
 from pathlib import Path
@@ -13,51 +8,42 @@ from typing import Any, Dict, List, Tuple
 import numpy as np
 import pandas as pd
 import torch
-from sklearn.metrics import classification_report
 from sklearn.preprocessing import StandardScaler
 
-# Import the model architecture from the model.py file
 from model import BalancedMLP
 
-# --- Configuration ---
-CONFIG: Dict[str, Any] = {
-    "paths": {
-        "model_checkpoint": Path(
-            "./models/physics_informed_model_checkpoint_seed_3141.pth"
-        ),
-        "benchmark_data": Path("./datasets/benchmark_dataset.csv"),
-        "output_results_csv": Path("./datasets/benchmark_results.csv"),
-    }
-}
-
-# --- Logger Setup ---
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.StreamHandler(sys.stdout)],
-)
 logger = logging.getLogger(__name__)
 
 
-def load_checkpoint(filepath: Path) -> Tuple[BalancedMLP, StandardScaler, List[str]]:
+def load_config(config_path: Path) -> Dict[str, Any]:
+    """Loads a JSON configuration file."""
+    with open(config_path, "r") as f:
+        return json.load(f)
+
+
+def setup_logging(log_dir: Path):
+    """Sets up console logging."""
+    log_dir.mkdir(exist_ok=True)
+    handler = logging.StreamHandler(sys.stdout)
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    handler.setFormatter(formatter)
+    if not logger.handlers:
+        logger.addHandler(handler)
+        logger.setLevel(logging.INFO)
+
+
+def load_checkpoint(
+    checkpoint_path: Path,
+) -> Tuple[BalancedMLP, StandardScaler, List[str]]:
     """
-    Loads a checkpoint bundle containing the model, scaler, and feature names.
-
-    Args:
-        filepath (Path): Path to the .pth checkpoint file.
-
-    Returns:
-        A tuple containing the loaded model, the fitted scaler, and the feature list.
+    Loads a complete model checkpoint.
     """
-    if not filepath.is_file():
-        raise FileNotFoundError(f"Checkpoint file not found at: {filepath}")
+    if not checkpoint_path.exists():
+        logger.error(f"Checkpoint file not found at: {checkpoint_path}")
+        sys.exit(1)
 
-    checkpoint = torch.load(filepath, map_location=torch.device("cpu"))
-
-    if "feature_names" not in checkpoint:
-        raise KeyError(
-            "Checkpoint is outdated. Please regenerate it with the latest training.py script."
-        )
+    checkpoint = torch.load(checkpoint_path)
+    logger.info(f"Loading model checkpoint from {checkpoint_path}...")
 
     model = BalancedMLP(
         input_dim=checkpoint["input_dim"], dropout_rate=checkpoint["dropout_rate"]
@@ -68,103 +54,139 @@ def load_checkpoint(filepath: Path) -> Tuple[BalancedMLP, StandardScaler, List[s
     scaler = checkpoint["scaler"]
     feature_names = checkpoint["feature_names"]
 
-    logger.info(f"✅ Checkpoint loaded successfully from {filepath}")
-    logger.info(f"   - Model was trained on {checkpoint['input_dim']} features.")
-
+    logger.info(
+        f"Model loaded successfully. Expecting {len(feature_names)} input features."
+    )
     return model, scaler, feature_names
 
 
-def evaluate_on_benchmark(
-    model: BalancedMLP,
-    scaler: StandardScaler,
-    feature_names: List[str],
-    benchmark_df: pd.DataFrame,
-) -> pd.DataFrame:
+def preprocess_new_data(
+    df: pd.DataFrame, feature_names: List[str], scaler: StandardScaler
+) -> torch.Tensor:
     """
-    Preprocesses the benchmark data, makes predictions, prints a classification report,
-    and returns the DataFrame with an added prediction column.
-
-    Returns:
-        pd.DataFrame: The original benchmark DataFrame with a new 'predicted_state' column.
+    Preprocesses new data for inference using the training configuration.
     """
-    # 1. Prepare the data for prediction
-    required_cols = feature_names + ["State"]
-    if not all(col in benchmark_df.columns for col in required_cols):
-        raise ValueError(
-            "Benchmark CSV is missing required feature or 'State' columns."
-        )
+    missing_cols = set(feature_names) - set(df.columns)
+    if missing_cols:
+        logger.error(f"Missing required columns in the new data: {missing_cols}")
+        sys.exit(1)
 
-    X_raw = benchmark_df[feature_names].copy()
-    X_raw.replace([np.inf, -np.inf], np.nan, inplace=True)
-    X_raw = X_raw.apply(lambda x: x.fillna(x.median()))
+    X = df[feature_names].copy()
+    X.replace([np.inf, -np.inf], np.nan, inplace=True)
+    for col in X.columns:
+        if X[col].isnull().any():
+            median_val = X[col].median()
+            X[col] = X[col].fillna(median_val)
+            logger.warning(
+                f"NaNs found in column '{col}'. Filled with median value ({median_val:.4f})."
+            )
 
-    y_true = benchmark_df["State"].values
+    X_scaled = scaler.transform(X.values)
+    return torch.tensor(X_scaled, dtype=torch.float32)
 
-    # 2. Scale the features using the loaded scaler
-    X_scaled = scaler.transform(X_raw)
-    X_tensor = torch.tensor(X_scaled, dtype=torch.float32)
 
-    # 3. Make predictions
-    logger.info(
-        f"Making predictions on {len(X_tensor)} samples from the benchmark dataset..."
-    )
+def run_inference(model: BalancedMLP, data_tensor: torch.Tensor) -> np.ndarray:
+    """
+    Runs the model on the preprocessed data to get predictions.
+    """
+    logger.info("Performing inference on new data...")
     with torch.no_grad():
-        logits = model(X_tensor)
+        logits = model(data_tensor)
         probabilities = torch.sigmoid(logits.squeeze())
-        y_pred = (probabilities >= 0.5).long().numpy()
-
-    # 4. Print the final evaluation report to the console
-    print("\n" + "=" * 60)
-    print("FINAL EVALUATION ON BENCHMARK DATASET")
-    print("=" * 60)
-    print(
-        classification_report(
-            y_true, y_pred, target_names=["Unstable (0)", "Stable (1)"], digits=4
-        )
-    )
-    print("=" * 60)
-
-    # 5. Add predictions to the DataFrame and return it
-    results_df = benchmark_df.copy()
-    results_df["predicted_state"] = y_pred
-
-    return results_df
+        predictions = (probabilities >= 0.5).float().cpu().numpy()
+    logger.info(f"Inference complete. Generated {len(predictions)} predictions.")
+    return predictions
 
 
 if __name__ == "__main__":
-    try:
-        # 1. Load the complete model checkpoint
-        loaded_model, loaded_scaler, feature_names_list = load_checkpoint(
-            CONFIG["paths"]["model_checkpoint"]
-        )
+    parser = argparse.ArgumentParser(
+        description="Perform inference using a trained model."
+    )
+    parser.add_argument(
+        "--config",
+        type=str,
+        default="configs/predict_config.json",
+        help="Path to the prediction configuration JSON file.",
+    )
 
-        # 2. Load the benchmark dataset
-        benchmark_csv_path = CONFIG["paths"]["benchmark_data"]
-        if not benchmark_csv_path.is_file():
-            raise FileNotFoundError(
-                f"Benchmark data file not found at: {benchmark_csv_path}"
-            )
+    parser.add_argument(
+        "--model_path",
+        type=str,
+        default=None,
+        help="Path to the model checkpoint (overrides config).",
+    )
+    parser.add_argument(
+        "--data_path",
+        type=str,
+        default=None,
+        help="Path to the new data CSV file (overrides config).",
+    )
+    parser.add_argument(
+        "--output_path",
+        type=str,
+        default=None,
+        help="Path to save the results CSV file (overrides config).",
+    )
 
-        df_benchmark = pd.read_csv(benchmark_csv_path)
-        logger.info(
-            f"✅ Benchmark dataset loaded successfully from {benchmark_csv_path}"
-        )
+    args = parser.parse_args()
 
-        # 3. Run the evaluation and get the results DataFrame
-        df_results = evaluate_on_benchmark(
-            loaded_model, loaded_scaler, feature_names_list, df_benchmark
-        )
+    logger = logging.getLogger(__name__)
+    setup_logging(Path("logs"))
 
-        # 4. Save the DataFrame with predictions to a new CSV file
-        output_path = CONFIG["paths"]["output_results_csv"]
-        df_results.to_csv(output_path, index=False)
-        logger.info(
-            f"✅ Benchmark results with predictions saved successfully to: {output_path}"
-        )
-
-    except (FileNotFoundError, KeyError, ValueError) as e:
-        logger.error(f"\nAn error occurred: {e}")
-        logger.error(
-            "Please ensure you have run training.py and create_benchmark_dataset.py successfully."
-        )
+    config_path = Path(args.config)
+    if not config_path.exists():
+        logger.error(f"Configuration file not found at: {config_path}")
         sys.exit(1)
+    config = load_config(config_path)
+    paths = config["paths"]
+
+    model_checkpoint_path = Path(args.model_path or paths["model_checkpoint"])
+    new_data_path = Path(args.data_path or paths["new_data_csv"])
+    results_dir = Path(paths["results_dir"])
+
+    if args.output_path:
+        output_file_path = Path(args.output_path)
+    else:
+        results_dir.mkdir(exist_ok=True)
+        output_file_path = results_dir / paths.get(
+            "output_filename", "benchmark_results.csv"
+        )
+
+    model, scaler, feature_names = load_checkpoint(model_checkpoint_path)
+
+    try:
+        new_df = pd.read_csv(new_data_path)
+        logger.info(
+            f"Successfully loaded new data for prediction from: {new_data_path.resolve()}"
+        )
+    except FileNotFoundError:
+        logger.error(f"The new data file was not found at: {new_data_path}")
+        sys.exit(1)
+
+    preprocessed_tensor = preprocess_new_data(new_df, feature_names, scaler)
+    predictions = run_inference(model, preprocessed_tensor)
+
+    results_df = new_df.copy()
+    results_df["predicted_state"] = predictions.astype(int)
+
+    desired_columns = [
+        "material_id",
+        "Composition",
+        "band_gap",
+        "crystal_system",
+        "State",
+        "predicted_state",
+    ]
+    final_columns = [col for col in desired_columns if col in results_df.columns]
+
+    if not final_columns:
+        logger.error(
+            "None of the desired output columns were found. Saving all columns instead."
+        )
+        final_results_df = results_df
+    else:
+        logger.info(f"Filtering output to include columns: {final_columns}")
+        final_results_df = results_df[final_columns]
+
+    final_results_df.to_csv(output_file_path, index=False)
+    logger.info(f"✅ Prediction results saved successfully to: {output_file_path}")

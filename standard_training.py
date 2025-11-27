@@ -21,8 +21,8 @@ from sklearn.preprocessing import StandardScaler
 # --- Configuration ---
 CONFIG: Dict[str, Any] = {
     "data": {
-        "csv_path": "./datasets/new_combined_dataset_with_born_criteria.csv",
-        "balance_strategy": "smote",
+        "csv_path": "./datasets/materials_dataset_expanded.csv",
+        "balance_strategy": None,
     },
     "model": {
         "input_dim": None,
@@ -55,7 +55,6 @@ CONFIG: Dict[str, Any] = {
     },
 }
 
-# --- Logger Setup ---
 logger = logging.getLogger(__name__)
 
 
@@ -64,7 +63,7 @@ def setup_logging(log_dir: Path):
     log_dir.mkdir(exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     script_name = Path(__file__).stem
-    log_filename = log_dir / f"{script_name}_{timestamp}.log"
+    log_filename = log_dir / f"st_{script_name}_{timestamp}.log"
     file_handler = logging.FileHandler(log_filename)
     stream_handler = logging.StreamHandler(sys.stdout)
     file_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
@@ -90,7 +89,6 @@ def set_seed(seed: int):
     logger.info(f"Global seed for torch, numpy, and random set to {seed}")
 
 
-# --- Data Handling ---
 def load_and_preprocess_data(
     csv_path: str, balance_strategy: Optional[str], random_state: int
 ) -> Optional[Tuple[np.ndarray, ...]]:
@@ -105,23 +103,25 @@ def load_and_preprocess_data(
         return None
 
     df = df.dropna(axis=1, how="all")
-    df["Born_Criteria"] = pd.to_numeric(df["Born_Criteria"], errors="coerce")
+    if "Born_Criteria" in df.columns:
+        df = df.rename(columns={"Born_Criteria": "born_criteria"})
+    df["born_criteria"] = pd.to_numeric(df["born_criteria"], errors="coerce")
     df["State"] = pd.to_numeric(df["State"], errors="coerce")
-    df = df.dropna(subset=["Born_Criteria", "State"])
-    df = df[df["Born_Criteria"].isin([0.0, 1.0])]
+    df = df.dropna(subset=["born_criteria", "State"])
+    df = df[df["born_criteria"].isin([0.0, 1.0])]
 
     non_numeric_cols = df.select_dtypes(exclude=[np.number]).columns.difference(
-        ["State", "Born_Criteria"]
+        ["State", "born_criteria"]
     )
     df = df.drop(columns=non_numeric_cols).replace([np.inf, -np.inf], np.nan)
 
-    feature_cols = df.columns.difference(["State", "Born_Criteria"])
+    feature_cols = df.columns.difference(["State", "born_criteria"])
     df[feature_cols] = df[feature_cols].apply(lambda x: x.fillna(x.median()))
     df = df.dropna()
 
     X = df[feature_cols].values
     y = df["State"].astype(np.float32).values
-    born_criteria_orig = df["Born_Criteria"].astype(np.float32).values
+    born_criteria_orig = df["born_criteria"].astype(np.float32).values
 
     logger.info(f"Original dataset: {X.shape[0]} samples, {X.shape[1]} features")
     logger.info(
@@ -159,9 +159,8 @@ def load_and_preprocess_data(
     )
 
 
-# --- Model and Loss ---
 class BalancedMLP(nn.Module):
-    """The same powerful MLP architecture."""
+    """The MLP architecture."""
 
     def __init__(self, input_dim: int, dropout_rate: float):
         super().__init__()
@@ -207,7 +206,6 @@ def focal_loss(
     return f_loss.mean()
 
 
-# --- Training and Evaluation ---
 class EarlyStopping:
     """Early stops training if validation loss doesn't improve."""
 
@@ -501,7 +499,6 @@ def save_model(model: nn.Module, path: Path):
     logger.info(f"Model saved to {path}")
 
 
-# --- Main Execution ---
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     setup_logging(CONFIG["paths"]["logs_dir"])
@@ -525,7 +522,6 @@ if __name__ == "__main__":
     )
     logger.info("\n✅ Data loaded and preprocessed successfully!")
 
-    # Perform validation split on all data
     X_train, X_val, y_train, y_val, _, _ = train_test_split(
         X_train_full,
         y_train_full,
@@ -554,14 +550,11 @@ if __name__ == "__main__":
     history = train_with_validation(model, data_tensors)
     logger.info("\n✅ Training completed!")
 
-    plot_filename = (
-        f"focal_loss_baseline_history_seed_{CONFIG['random_states']['global_seed']}.png"
-    )
+    plot_filename = f"st_focal_loss_baseline_history_seed_{CONFIG['random_states']['global_seed']}.png"
     plot_path = CONFIG["paths"]["plots_dir"] / plot_filename
     plot_training_history(history, plot_path)
 
     logger.info("\n📊 Evaluating final model on the test set...")
-    # Note: evaluate_model is called without born_test
     results = evaluate_model(model, data_tensors["X_test"], data_tensors["y_test"])
 
     sep = "=" * 60
@@ -582,6 +575,6 @@ if __name__ == "__main__":
     )
     logger.info(f"\nDetailed Classification Report [seed: {seed}]:\n{report}")
 
-    model_filename = f"focal_loss_baseline_model_{seed}.pth"
+    model_filename = f"st_focal_loss_baseline_model_{seed}.pth"
     model_path = CONFIG["paths"]["models_dir"] / model_filename
     save_model(model, model_path)

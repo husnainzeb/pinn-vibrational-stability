@@ -1,11 +1,3 @@
-# model.py
-
-"""
-Contains the definition for the Multi-Layer Perceptron (MLP) model.
-This allows the model architecture to be imported by other scripts like
-training.py and predict.py.
-"""
-
 import torch.nn as nn
 
 
