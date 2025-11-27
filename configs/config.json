@@ -1,7 +1,7 @@
 {
     "data": {
-        "csv_path": "../datasets/materials_dataset_ml_ready_with_matminer.csv",
-        "balance_strategy": "smote"
+        "csv_path": "datasets/materials_dataset_expanded.csv",
+        "balance_strategy": null
     },
     "model": {
         "input_dim": null,
@@ -11,30 +11,28 @@
     "training": {
         "epochs": 2000,
         "patience": 100,
-        "learning_rate": 0.001,
+        "learning_rate": 0.0036,
         "weight_decay": 1e-05,
         "clip_grad_norm": 1.0,
-        "lambda_penalty": 0.15,
+        "lambda_penalty": 0.1,
         "focal_loss_alpha": 0.6,
         "focal_loss_gamma": 2.0,
         "scheduler_patience": 25,
         "scheduler_factor": 0.5
     },
     "evaluation": {
-        "test_size": 0.2,
-        "validation_size": 0.25
+        "test_size": 0.1,
+        "validation_size": 0.2
     },
     "random_states": {
-        "global_seed": 5555,
+        "global_seed": 17,
         "data_split_seed": 42
     },
     "paths": {
-        "logs_dir": "../logs",
-        "models_dir": "../models",
-        "plots_dir": "../plots",
-        "model_checkpoint": "../models/physics_informed_model_checkpoint_seed_3141.pth",
-        "benchmark_data": "../datasets/benchmark_dataset.csv",
-        "output_results_csv": "../datasets/benchmark_results.csv",
-        "results_dir": "../results"
+        "logs_dir": "logs",
+        "models_dir": "models",
+        "plots_dir": "plots",
+        "model_checkpoint": "models/model.pth",
+        "results_dir": "results"
     }
 }

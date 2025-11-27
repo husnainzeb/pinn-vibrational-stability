@@ -1,6 +1,5 @@
-
 """
-Physics-Informed Neural Network Training Script (Refactored).
+Physics-Informed Neural Network Training Script.
 
 This script trains a Multi-Layer Perceptron (MLP) to classify material
 stability and saves a complete checkpoint bundle (model weights, hyperparameters,
@@ -36,10 +35,10 @@ def load_config(config_path: Path) -> Dict[str, Any]:
     with open(config_path, "r") as f:
         return json.load(f)
 
+
 CONFIG_PATH = Path(__file__).parent.parent / "configs" / "config.json"
 CONFIG = load_config(CONFIG_PATH)
 
-# Convert path strings to Path objects
 CONFIG["paths"]["logs_dir"] = Path(CONFIG["paths"]["logs_dir"])
 CONFIG["paths"]["models_dir"] = Path(CONFIG["paths"]["models_dir"])
 CONFIG["paths"]["plots_dir"] = Path(CONFIG["paths"]["plots_dir"])
@@ -91,7 +90,6 @@ def load_and_preprocess_data(
 
     df = df.dropna(axis=1, how="all")
 
-    # Normalize column names
     if "born_criteria" in df.columns:
         df = df.rename(columns={"born_criteria": "Born_Criteria"})
     if "state" in df.columns:
@@ -107,13 +105,27 @@ def load_and_preprocess_data(
     metadata_orig = df[existing_metadata_cols].copy()
 
     non_numeric_cols = df.select_dtypes(exclude=[np.number]).columns.difference(
-        ["State", "Born_Criteria", "composition", "Composition", "material_id", "crystal_system"]
+        [
+            "State",
+            "Born_Criteria",
+            "composition",
+            "Composition",
+            "material_id",
+            "crystal_system",
+        ]
     )
     df = df.drop(columns=non_numeric_cols)
     df = df.replace([np.inf, -np.inf], np.nan)
 
     feature_cols = df.columns.difference(
-        ["State", "Born_Criteria", "composition", "Composition", "material_id", "crystal_system"]
+        [
+            "State",
+            "Born_Criteria",
+            "composition",
+            "Composition",
+            "material_id",
+            "crystal_system",
+        ]
     ).tolist()
     CONFIG["model"]["feature_names"] = feature_cols
 
@@ -157,48 +169,62 @@ def load_and_preprocess_data(
     X_scaled = scaler.fit_transform(X)
     CONFIG["model"]["input_dim"] = X_scaled.shape[1]
 
-
     n_synthetic = len(y) - len(born_criteria_orig)
     if n_synthetic > 0:
-        synthetic_metadata = pd.DataFrame(index=range(n_synthetic), columns=existing_metadata_cols)
+        synthetic_metadata = pd.DataFrame(
+            index=range(n_synthetic), columns=existing_metadata_cols
+        )
         for col in existing_metadata_cols:
             synthetic_metadata[col] = "Synthetic"
             if col == "band_gap":
-                 synthetic_metadata[col] = -1.0 # Placeholder
-        
-        metadata_combined = pd.concat([metadata_orig, synthetic_metadata], ignore_index=True)
+                synthetic_metadata[col] = -1.0  
+
+        metadata_combined = pd.concat(
+            [metadata_orig, synthetic_metadata], ignore_index=True
+        )
     else:
         metadata_combined = metadata_orig.reset_index(drop=True)
 
-    X_train, X_test, y_train, y_test, born_train, born_test, meta_train, meta_test = train_test_split(
-        X_scaled,
-        y,
-        born_criteria,
-        metadata_combined,
-        test_size=CONFIG["evaluation"]["test_size"],
-        random_state=random_state,
-        stratify=y,
+    X_train, X_test, y_train, y_test, born_train, born_test, meta_train, meta_test = (
+        train_test_split(
+            X_scaled,
+            y,
+            born_criteria,
+            metadata_combined,
+            test_size=CONFIG["evaluation"]["test_size"],
+            random_state=random_state,
+            stratify=y,
+        )
     )
-    
-    X_train, X_val, y_train, y_val, born_train, born_val, meta_train, meta_val = train_test_split(
-        X_train,
-        y_train,
-        born_train,
-        meta_train,
-        test_size=CONFIG["evaluation"]["validation_size"],
-        random_state=random_state,
-        stratify=y_train,
+
+    X_train, X_val, y_train, y_val, born_train, born_val, meta_train, meta_val = (
+        train_test_split(
+            X_train,
+            y_train,
+            born_train,
+            meta_train,
+            test_size=CONFIG["evaluation"]["validation_size"],
+            random_state=random_state,
+            stratify=y_train,
+        )
     )
 
     split_data = (
-        X_train, X_val, X_test,
-        y_train, y_val, y_test,
-        born_train, born_val, born_test,
-        meta_train, meta_val, meta_test
+        X_train,
+        X_val,
+        X_test,
+        y_train,
+        y_val,
+        y_test,
+        born_train,
+        born_val,
+        born_test,
+        meta_train,
+        meta_val,
+        meta_test,
     )
 
     return scaler, feature_cols, split_data
-
 
 
 def focal_loss(
@@ -551,7 +577,9 @@ def save_checkpoint(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Train Physics-Informed Neural Network")
+    parser = argparse.ArgumentParser(
+        description="Train Physics-Informed Neural Network"
+    )
     parser.add_argument(
         "--config",
         type=str,
@@ -578,21 +606,18 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # Load config from argument if provided
     if args.config:
         CONFIG = load_config(Path(args.config))
-        # Re-convert paths
         CONFIG["paths"]["logs_dir"] = Path(CONFIG["paths"]["logs_dir"])
         CONFIG["paths"]["models_dir"] = Path(CONFIG["paths"]["models_dir"])
         CONFIG["paths"]["plots_dir"] = Path(CONFIG["paths"]["plots_dir"])
 
-    # Override with command line arguments if provided
     if args.csv_path:
-         CONFIG["data"]["csv_path"] = args.csv_path
+        CONFIG["data"]["csv_path"] = args.csv_path
     if args.logs_dir:
-         CONFIG["paths"]["logs_dir"] = Path(args.logs_dir)
+        CONFIG["paths"]["logs_dir"] = Path(args.logs_dir)
     if args.seed is not None:
-         CONFIG["random_states"]["global_seed"] = args.seed
+        CONFIG["random_states"]["global_seed"] = args.seed
 
     warnings.filterwarnings("ignore")
     setup_logging(CONFIG["paths"]["logs_dir"])
@@ -614,10 +639,18 @@ if __name__ == "__main__":
     scaler, feature_names, processed_data = result
 
     (
-        X_train, X_val, X_test,
-        y_train, y_val, y_test,
-        born_train, born_val, born_test,
-        meta_train, meta_val, meta_test
+        X_train,
+        X_val,
+        X_test,
+        y_train,
+        y_val,
+        y_test,
+        born_train,
+        born_val,
+        born_test,
+        meta_train,
+        meta_val,
+        meta_test,
     ) = processed_data
 
     logger.info("\n✅ Data loaded and preprocessed successfully!")
@@ -693,17 +726,16 @@ if __name__ == "__main__":
     model_path = CONFIG["paths"]["models_dir"] / model_filename
     save_checkpoint(model, scaler, feature_names, model_path)
 
-    # Save detailed results
     if "results_dir" in CONFIG["paths"]:
         results_dir = Path(CONFIG["paths"]["results_dir"])
         results_dir.mkdir(exist_ok=True)
-        
+
         def save_results(X, y, meta, filename):
             model.eval()
             with torch.no_grad():
                 outputs = model(torch.tensor(X, dtype=torch.float32))
                 preds = (torch.sigmoid(outputs.squeeze()) >= 0.5).float().numpy()
-            
+
             df_res = meta.copy()
             df_res["State"] = y
             df_res["predicted_state"] = preds

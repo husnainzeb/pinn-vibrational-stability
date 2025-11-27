@@ -1,0 +1,1297 @@
+material_id,Composition,band_gap,crystal_system,State,predicted_state
+mp-755421,Ca6HfO8 ,4.1479,Cubic,0,1
+mp-754158,KNdO2 ,3.7088,Trigonal,1,1
+mp-608516,CsGaCl4 ,4.491,Orthorhombic,0,0
+mp-540577, KZr2(PO4)3,4.2822,Trigonal,0,0
+mp-540659,Ba(BO2)2,4.5867,Trigonal,0,0
+mp-28617,In3Sb5O12 ,2.328299999999999,Cubic,0,0
+mp-5858,CdPtF6 ,2.1901,Trigonal,1,1
+mp-760513,La2UO6 ,1.739799999999999,Orthorhombic,0,1
+mp-7739,Ba2ZnF6,4.732399999999999,Tetragonal,0,0
+mp-10461,NaSr3SbO6 ,2.9095,Trigonal,1,1
+mp-18156,KBaPSe4 ,1.3932,Orthorhombic,0,0
+mp-8133,LaPO4,4.8969000000000005,Hexagonal,0,0
+mp-677250,K2LuZr(PO4)3,4.3228,Cubic,0,0
+mp-29244,Cd2P3I ,1.0877,Monoclinic,1,1
+mp-504646,In5(BiS4)3,1.426899999999999,Monoclinic,0,0
+mp-553243,YBi2BrO4 ,1.339999999999999,Tetragonal,1,1
+mp-35152,Sr2H5Rh ,0.580299999999999,Tetragonal,1,1
+mp-707333,Na3SiH3O5 ,3.8945,Monoclinic,0,0
+mp-541113,Cs3P7 ,2.4278,Tetragonal,0,0
+mp-769211,Tb2Pb2O7 ,1.1856,Cubic,1,1
+mp-7094,ReAgO4,2.3102,Tetragonal,1,1
+mp-633158,NaTeH6O6F,3.5809,Trigonal,0,0
+mp-29423,TlFeBr4 ,0.0359,Orthorhombic,0,0
+mp-8175,KTlO2 ,0.8820000000000001,Trigonal,1,1
+mp-927,CuP2 ,0.8679000000000001,Monoclinic,1,1
+mp-9523,Rb(ThSe3)2,0.0,Orthorhombic,1,1
+mp-31275, Ba(TeP2)2 ,1.165499999999999,Orthorhombic,1,0
+mp-39033,Sr(NdSe2)2,1.7524000000000002,Tetragonal,1,1
+mp-556129,Cs2Zr(IO3)6,3.4585,Trigonal,0,0
+mp-7100,LaOF,4.5691,Tetragonal,1,1
+mp-758007,Ba2CaP4(H3O8)2,5.683400000000001,Monoclinic,1,0
+mp-31451,ZrCoBi,0.9771999999999992,Cubic,1,1
+mp-28043,Tl3AgI5 ,1.216899999999999,Hexagonal,0,0
+mp-21922,Te3(PbO4)2,3.044899999999999,Orthorhombic,0,0
+mp-630851,Cs3NaPb4,0.4754,Orthorhombic,0,1
+mp-8979,TaInO4 ,3.5727,Monoclinic,1,1
+mp-27453,Li7SbO6 ,3.497199999999999,Trigonal,0,0
+mp-850536,BaGa12O19,1.9266,Hexagonal,0,0
+mp-569178,HoTlSe2,1.2588,Trigonal,1,1
+mp-24424,BaHBr,3.2113,Tetragonal,1,1
+mp-14620,Tm2CdSe4,0.653,Cubic,1,1
+mp-541226,CsBrF6 ,3.9858,Trigonal,0,0
+mp-6647,BaYAgSe3 ,1.3282,Orthorhombic,1,1
+mp-581834,CsNa5(WN3)2,1.8273,Monoclinic,0,0
+mp-9405,K3SeO4F ,3.6512,Tetragonal,0,0
+mp-21713,K2In3CuSe6 ,1.2031,Monoclinic,0,0
+mp-558588,BaPt2S3 ,1.3649,Tetragonal,0,0
+mp-754217,SmIO ,3.6304,Tetragonal,1,1
+mp-571390,Cs2LiCl3 ,5.1936,Orthorhombic,0,0
+mp-570231,CsCdBr3 ,0.6968000000000001,Cubic,0,0
+mp-13042,NaSr3TaO6 ,3.8787,Trigonal,1,1
+mp-753846,Mg(GaO2)2,2.3574,Trigonal,0,1
+mp-571313,Hf(SeCl6)2,2.799,Orthorhombic,0,0
+mp-29228,CsSrN9 ,3.8236,Monoclinic,0,0
+mp-13984,CdPdF6 ,1.7751,Trigonal,1,1
+mp-15797,LiErSe2,1.6151,Trigonal,1,1
+mp-554382,K2CdP2O7,3.779499999999999,Monoclinic,0,0
+mp-6655,Y2Be2SiO7,5.1545,Tetragonal,1,0
+mp-721851,BHO2 ,7.223299999999999,Cubic,0,0
+mp-542164,Tb2CsAg3Se5 ,1.094399999999999,Orthorhombic,1,1
+mp-23918,NaGaH4 ,4.7342,Orthorhombic,0,1
+mp-581749,CsTm2Cu3Se5,1.247299999999999,Orthorhombic,1,1
+mp-1249,MgF2 ,6.824,Tetragonal,1,1
+mp-28090,Si2H2S3,3.3657,Tetragonal,1,0
+mp-570453,Ba4W(N2Cl)2,2.2089,Monoclinic,0,0
+mp-9363,RbNdS2 ,2.2617,Trigonal,1,1
+mp-28773,Na4Ga2S5,2.885,Monoclinic,0,0
+mp-16000,Cs5Ti6AgSe27 ,0.590399999999999,Trigonal,0,0
+mp-37722,KBH4,6.0959,Tetragonal,1,1
+mp-37405,Al5CuSe8 ,0.504599999999999,Cubic,0,1
+mp-733844,Na3GaP2H2O9 ,3.9887,Monoclinic,0,0
+mp-4515,Ag3SbS3 ,0.9521,Trigonal,0,0
+mp-13840,Ho3ScO6 ,4.423,Trigonal,1,1
+mp-30294,Sr2SnS4 ,2.4784,Orthorhombic,1,1
+mp-6426,Na2MgSiO4,3.8537,Orthorhombic,0,0
+mp-5960,Ca3UO6 ,2.1479,Monoclinic,0,0
+mp-23552,Er(IO3)3,3.4776,Monoclinic,0,0
+mp-862893,ThNb4O12 ,1.9393,Orthorhombic,0,0
+mp-756148,Sm2Pt2O7 ,1.047599999999999,Cubic,1,1
+mp-557631,AgAs(XeF5)2,1.4049,Tetragonal,0,0
+mp-2843,SnF2,3.2704,Monoclinic,0,0
+mp-769396,Y2Ge2O7,3.1753,Cubic,1,1
+mp-559332,BiTeIO3 ,2.3576,Monoclinic,0,0
+mp-761148,Ti9SnO20 ,1.8492,Monoclinic,0,0
+mp-570844,Ga3Os ,0.676999999999999,Tetragonal,1,1
+mp-6748,Cs2Ti(Si2O5)3,3.5085,Monoclinic,0,0
+mp-13530,SmAsO4,3.732199999999999,Tetragonal,1,0
+mp-541989,Na2CN2 ,3.024,Monoclinic,0,1
+mp-505713,CsTmZnSe3,2.171599999999999,Orthorhombic,1,1
+mp-675569,KPF6,7.117799999999999,Trigonal,0,0
+mp-6810,K2Ti(SiO3)3,3.2108,Hexagonal,0,0
+mp-15144,ZnAg2GeO4 ,0.266799999999999,Monoclinic,0,0
+mp-571079,TlCl,2.5181,Orthorhombic,0,1
+mp-29506,CsBiO2 ,2.318699999999999,Monoclinic,1,1
+mp-22766,CaIn2O4 ,2.020799999999999,Cubic,1,1
+mp-22987,BiIO ,1.472999999999999,Tetragonal,1,1
+mp-35909,AgBiI4 ,1.0457,Orthorhombic,0,0
+mp-380,ZnSe ,1.2004,Hexagonal,1,1
+mp-35493,Zn2SnO4 ,0.8250999999999991,Orthorhombic,1,1
+mp-34022,Mg2SnO4 ,2.7149,Orthorhombic,1,1
+mp-24423,SrHBr ,3.8297,Tetragonal,1,1
+mp-23330,NaClO3 ,5.633199999999999,Cubic,0,0
+mp-754211,SrLa2O4 ,3.788,Cubic,1,1
+mp-12668,Tb2SO2,2.9772,Trigonal,1,1
+mp-28875,Hg2P3Cl ,1.1347,Monoclinic,1,1
+mp-680403,K2In3AgSe6,1.4158,Monoclinic,0,0
+mp-27641,CsBr3,1.9977,Orthorhombic,0,1
+mp-7575,LiZnN ,0.5187,Cubic,1,1
+mp-9912,Li2CeP2 ,0.8280999999999991,Trigonal,1,1
+mp-31117,NdScO3 ,4.3025,Orthorhombic,1,1
+mp-13327,NdLuSe3 ,0.4956,Orthorhombic,1,1
+mp-11713,SiC ,1.9535,Trigonal,0,1
+mp-757586,Ba2Tl(HO)7,2.4953,Monoclinic,0,0
+mp-7129,Rb2Ti(CuS2)2,1.660299999999999,Tetragonal,1,1
+mp-762307,Y7HoO12,4.208,Orthorhombic,1,0
+mp-561132,K2Ge2PbS6 ,2.211299999999999,Monoclinic,0,0
+mp-556340,CaTaNO2 ,1.6554,Orthorhombic,0,1
+mp-567931,InSiTe3,0.4816,Trigonal,1,0
+mp-9915,LiBeP,1.1585,Tetragonal,0,1
+mp-768150,LiBi3(BrO2)2 ,2.671399999999999,Orthorhombic,0,0
+mp-559385,SrHo2O4 ,3.7343,Orthorhombic,1,1
+mp-561430,LiLuF4,7.754200000000001,Monoclinic,0,0
+mp-5094,Co2(GeSe)3,0.3737,Trigonal,1,1
+mp-30041,RbBiS2 ,1.339,Trigonal,1,1
+mp-673833,Li7VAs4 ,0.8996000000000001,Monoclinic,1,1
+mp-569051,MgH2 ,2.3531,Orthorhombic,1,1
+mp-33606,Ba(PrSe2)2,1.619,Tetragonal,1,1
+mp-556178,BaAl2(GeO4)2,4.0798,Monoclinic,0,0
+mp-9317,KZrCuS3,0.592499999999999,Orthorhombic,1,1
+mp-23861,BaHCl,3.4827,Tetragonal,1,1
+mp-23887,MgH12SO9 ,4.9641,Trigonal,0,0
+mp-636598,Rb2ZnBr4 ,3.9255,Monoclinic,0,0
+mp-555846,BaAlF5 ,7.204,Monoclinic,1,0
+mp-556756,KSb2PO8 ,2.3727,Monoclinic,0,0
+mp-768147, Dy(ClO4)3 ,4.9912,Hexagonal,0,0
+mp-581517, K2In(PSe4)2 ,1.1954999999999991,Monoclinic,0,0
+mp-14871,Li16Ta2N8O ,3.4017,Trigonal,1,1
+mp-36866,Al2CdO4,2.676,Cubic,1,1
+mp-12953,TmAgTe2 ,0.6658000000000001,Trigonal,1,1
+mp-561253,Ba3Lu(BO2)9,5.266500000000001,Hexagonal,0,0
+mp-558805,Na3Nd(BO3)2 ,3.9757,Monoclinic,0,0
+mp-31049,NdO2 ,3.4112,Monoclinic,1,1
+mp-1340,Ga2Se3 ,1.043599999999999,Monoclinic,0,0
+mp-4800,Ca11(CN5)2,0.776,Tetragonal,0,0
+mp-755322,BaNa6O4 ,1.8735,Tetragonal,0,0
+mp-1707,BaN6,3.8146,Monoclinic,0,0
+mp-16560,KEr2CuSe4 ,0.944,Orthorhombic,1,0
+mp-16264,LiCaSb ,0.6443000000000001,Orthorhombic,1,1
+mp-20098,Ba2PbO4 ,1.2232,Tetragonal,0,1
+mp-1434,MoS2 ,1.2042,Trigonal,1,1
+mp-675800,Li5TiP3 ,0.8218000000000001,Monoclinic,1,1
+mp-768175,Dy2SO2 ,2.8611,Hexagonal,1,1
+mp-973261,Mg2SnO4,1.903,Cubic,1,1
+mp-505633,Cs2Zn3S4,2.694499999999999,Orthorhombic,1,1
+mp-29792,CaNb2O4 ,1.277299999999999,Orthorhombic,1,1
+mp-570959,Dy2CdSe4,0.5809000000000001,Cubic,1,1
+mp-984872,CsPb2Cl5,3.8164,Tetragonal,0,1
+mp-5782,AlAgS2 ,1.8992,Tetragonal,1,1
+mp-642847,Li4H6Ru ,2.388,Trigonal,1,1
+mp-769228,Cs5YO4 ,1.624099999999999,Orthorhombic,0,0
+mp-766596,Ti(SiO3)2,3.3054,Orthorhombic,1,0
+mp-9364,RbSmS2 ,2.2721,Trigonal,1,1
+mp-9380,SrGe4O9 ,3.0685,Trigonal,0,0
+mp-10418,RbSbO2 ,2.2483,Monoclinic,1,1
+mp-16037,Dy2TeO2 ,0.8027999999999991,Tetragonal,0,1
+mp-625509,H3BrO ,4.4183,Trigonal,1,1
+mp-804,GaN ,1.726499999999999,Hexagonal,1,1
+mp-976401,Ge3Rh2Se3 ,0.297299999999999,Trigonal,1,1
+mp-24668,CsHF2 ,6.5123,Tetragonal,1,1
+mp-555977,Rb2ZnO2 ,1.792399999999999,Monoclinic,0,0
+mp-27241,K2SbCl5,3.2628,Monoclinic,0,0
+mp-755165,YScO3 ,4.4324,Orthorhombic,1,1
+mp-557832,K2Cd(AuS)4,2.032899999999999,Orthorhombic,0,0
+mp-7499,Tl2Sn2S5,1.4057,Monoclinic,1,0
+mp-558455,Na4Li5(BO3)3,3.9373,Monoclinic,1,0
+mp-568001,AlHg2SbCl4,1.1967,Orthorhombic,0,0
+mp-553082,PrBi2ClO4 ,1.1244,Tetragonal,1,1
+mp-541462,SrTa4O11 ,3.5232,Hexagonal,0,0
+mp-772793,Dy2Ge2O7 ,3.7413,Tetragonal,0,0
+mp-554240,NaCa4(BO3)3 ,4.0868,Orthorhombic,0,0
+mp-758693,Na4Al4H10O13 ,4.492,Tetragonal,0,0
+mp-11925,RbTa(CuSe2)2,1.7333,Orthorhombic,1,0
+mp-620029,MoCl2 ,2.454799999999999,Orthorhombic,1,0
+mp-4482,NaSbO3 ,2.7012,Trigonal,1,1
+mp-557992,InTeClO3 ,3.0755,Monoclinic,0,0
+mp-29849,Ag3SnP7 ,0.5034000000000001,Monoclinic,1,1
+mp-31166,DyTlS2 ,1.5281999999999991,Trigonal,1,1
+mp-2460,Er2O3 ,4.1023,Monoclinic,1,0
+mp-555065,LiEr(PO3)4,5.9556,Monoclinic,0,0
+mp-30456,SrLiBi ,0.5558000000000001,Orthorhombic,1,1
+mp-29605,SrPr2O4,3.3444000000000003,Orthorhombic,1,1
+mp-9036,KSmTe2 ,1.2623,Trigonal,1,1
+mp-6254,TbBa2NbO6 ,2.9923,Tetragonal,0,0
+mp-570948,LiCaGaN2 ,2.1319,Monoclinic,1,1
+mp-23295,RbCl ,4.8388,Cubic,1,1
+mp-30981,Te(HO)6,3.0698,Monoclinic,0,0
+mp-9321,Ba2HfS4 ,0.8648,Tetragonal,0,1
+mp-9625,LiMgPO4 ,5.4297,Orthorhombic,1,1
+mp-641018,CsK5Zn4Sn5S17 ,1.6414,Tetragonal,0,0
+mp-556100,Si(Sn3O4)2 ,1.8998,Hexagonal,0,0
+mp-570935,LiI ,4.3818,Hexagonal,1,1
+mp-753401,Sc2TiO5 ,3.1323,Orthorhombic,0,0
+mp-28065,ThNCl ,2.496299999999999,Tetragonal,1,1
+mp-8609,Li6UO6 ,2.1685,Trigonal,0,0
+mp-1960,Li2O,4.8986,Cubic,1,1
+mp-8054,NaSc(GeO3)2,3.5612,Monoclinic,0,0
+mp-13385,TmAg(PSe3)2,1.7789,Trigonal,1,1
+mp-18019,K3Sm(PO4)2 ,5.0138,Monoclinic,0,0
+mp-3748,AlCuO2 ,1.7978,Trigonal,1,1
+mp-756742,Lu3AlO6,4.5825,Trigonal,1,1
+mp-11151,NaPrTe2 ,1.059699999999999,Cubic,1,0
+mp-9205,KSeO2F,3.3338,Monoclinic,0,0
+mp-35267,Al5CuS8 ,1.4217,Cubic,0,1
+mp-865492,LuCuPbSe3 ,1.0865,Orthorhombic,0,1
+mp-559756,PrScO3 ,4.2605,Orthorhombic,1,1
+mp-12244,Cs3TiF7 ,2.9901,Tetragonal,0,0
+mp-560240,K2SbPO6 ,2.6337,Orthorhombic,0,0
+mp-9037,CsPrS2 ,2.228399999999999,Hexagonal,1,1
+mp-22661,InAg(PS3)2,1.148299999999999,Trigonal,0,1
+mp-14708,Tm2Ge2O7 ,3.725,Tetragonal,0,0
+mp-29027,TaI2O ,0.8866,Monoclinic,1,0
+mp-32850,Tm2Se3,1.696399999999999,Tetragonal,0,0
+mp-861942,Ag2GePbS4 ,1.3699,Orthorhombic,0,1
+mp-14052,Ca3In2(SiO4)3,3.8105,Cubic,1,0
+mp-13859,K3SiF7 ,5.9294,Tetragonal,0,0
+mp-24097,Mg3Si2H4O9 ,4.2499,Hexagonal,1,0
+mp-552729,KIO3 ,2.568199999999999,Trigonal,0,0
+mp-3443,Cd(GaO2)2,1.5793,Cubic,0,1
+mp-541035,CsUN3O11 ,3.0783,Trigonal,0,0
+mp-9239,NaLaMgTeO6 ,2.5432,Monoclinic,0,0
+mp-14551,Sr2CaUO6,2.2089,Monoclinic,1,0
+mp-6446,Ba3La2(BO3)4 ,4.0338,Orthorhombic,0,0
+mp-12670,Ho2SO2,3.028299999999999,Trigonal,1,1
+mp-9900,Ag2GeS3,0.4646,Orthorhombic,0,1
+mp-756135, Tb3NbO7,2.7044,Orthorhombic,0,0
+mp-7444,RbSb ,0.5423,Orthorhombic,0,0
+mp-17559,Y2TiO5 ,3.279299999999999,Orthorhombic,0,0
+mp-554159,Li2BeSiO4 ,5.5993,Orthorhombic,1,1
+mp-556500,NClOF4 ,1.3315,Tetragonal,0,0
+mp-17487,NaErGeO4 ,3.618299999999999,Orthorhombic,1,0
+mp-23827,Sr7(H6Cl)2 ,3.8615,Hexagonal,1,1
+mp-768908,Ho2TeO2,0.5838000000000001,Trigonal,1,1
+mp-683902,Rb3Nb2AsSe11,1.181199999999999,Monoclinic,0,0
+mp-28034,Cu2P7 ,0.8419999999999991,Monoclinic,1,1
+mp-625718,Y(HO)3 ,3.9473,Monoclinic,0,0
+mp-8751,RbLiS ,2.745,Tetragonal,1,1
+mp-30943,MgPSe3 ,2.0382,Trigonal,1,1
+mp-554463,Na3LuSi2O7,3.9465,Hexagonal,0,0
+mp-13974,Ho2SeO2 ,2.1517,Trigonal,1,1
+mp-557373,Cu2WS4 ,1.5621,Tetragonal,1,1
+mp-29289,BaPt2S3 ,0.9791999999999992,Tetragonal,0,1
+mp-9634,Na3AgS2 ,2.1755,Orthorhombic,0,0
+mp-28671,ZrTe2Br5 ,1.1062,Monoclinic,0,0
+mp-557824,Rb2(ReS2)3,1.426899999999999,Monoclinic,1,1
+mp-14252, Ca3UO6,2.260099999999999,Trigonal,1,1
+mp-758379,Y11Ta5O28 ,1.064499999999999,Monoclinic,0,0
+mp-757777,LiSiBi3O7 ,2.976099999999999,Hexagonal,0,0
+mp-7904,CdP4 ,0.6551,Monoclinic,1,1
+mp-10785,RbLuSe2 ,2.0299,Trigonal,1,1
+mp-28879,Ca5P8 ,1.1418,Monoclinic,1,1
+mp-7841,Ba(GaSe2)2,1.8578,Orthorhombic,1,1
+mp-28584,Tl2CuI3 ,1.5759999999999992,Orthorhombic,1,0
+mp-9047,RbBS3 ,2.4085,Monoclinic,1,0
+mp-777990,Tm2Sb2O7 ,2.1311,Trigonal,0,0
+mp-17153,Tb2BaTe4 ,1.2848,Orthorhombic,1,1
+mp-2994, Co2(GeTe)3,0.4535,Trigonal,1,1
+mp-8235,K2SiP2,1.208699999999999,Orthorhombic,1,0
+mp-14787,Tm2S3 ,2.5249,Trigonal,1,1
+mp-504827,Ga10GePb3O20 ,3.0318,Monoclinic,0,0
+mp-31104,KBi ,0.4308,Monoclinic,1,1
+mp-16025,Y2(SO4)3,5.6993,Orthorhombic,0,0
+mp-22997,PbBrCl ,3.437699999999999,Orthorhombic,1,1
+mp-972439,Zn3(PO4)2,2.9952,Monoclinic,0,0
+mp-6257,CsNb(BO3)2,3.2987,Orthorhombic,0,0
+mp-569939,AgBi2Se3Cl,0.549999999999999,Monoclinic,0,0
+mp-12494,CsPrCdTe3,1.5231,Orthorhombic,1,1
+mp-616218,Cd(In2I3)2,1.534199999999999,Tetragonal,1,0
+mp-9216,Ca3Tl2O6 ,1.204699999999999,Orthorhombic,0,0
+mp-23862,BaHI ,2.811099999999999,Tetragonal,1,1
+mp-6568,BaCa(CO3)2,4.703,Monoclinic,0,0
+mp-254,NdF3 ,7.6164,Trigonal,0,1
+mp-556666,CaBiCO4F ,2.2248,Orthorhombic,0,0
+mp-755999,Rb2Be2O3,3.1096,Monoclinic,0,0
+mp-861503,Pr3Sb4Au3 ,0.506,Cubic,1,1
+mp-555812,NaSr3BiO6 ,1.7087999999999992,Trigonal,1,0
+mp-10533,YCuS2 ,1.5946999999999991,Orthorhombic,1,1
+mp-551470,Tl2O,0.5194000000000001,Monoclinic,0,1
+mp-684690,Sc2Se3,0.5374,Monoclinic,1,1
+mp-10489,Cs2Ti(CuSe2)2,1.3642,Tetragonal,1,1
+mp-4434,TbAlO3 ,5.598200000000001,Orthorhombic,1,1
+mp-690794,Sr2HN ,1.8058,Trigonal,1,1
+mp-2651,PrF3 ,7.5968,Trigonal,0,1
+mp-16884,RbEr2Cu3Se5 ,1.1477,Orthorhombic,0,1
+mp-561068,BiAsO4 ,2.8719,Tetragonal,1,0
+mp-558480,K2P2O5F2 ,5.0435,Monoclinic,0,0
+mp-9889,GaS,1.866499999999999,Trigonal,0,1
+mp-754323,TmBiO3 ,3.1128,Trigonal,1,1
+mp-8453,RbNaO ,1.985599999999999,Tetragonal,1,1
+mp-10096,Na3Sr3GaP4 ,0.746699999999999,Hexagonal,1,1
+mp-510341,Cs3Ge4Au,0.9316,Orthorhombic,1,0
+mp-560799,NaNdH2S2O9 ,5.748,Trigonal,0,0
+mp-31034,ThF4 ,6.529,Monoclinic,0,1
+mp-17784,CaTiGeO5 ,2.9496,Monoclinic,0,0
+mp-626417,CsH3O2 ,4.0949,Orthorhombic,0,1
+mp-571190,GaHg2SbCl4,1.1427,Orthorhombic,0,0
+mp-753692,Ho2Ge2O7 ,3.252,Cubic,1,1
+mp-29577,CsBrO4 ,3.0454,Tetragonal,0,0
+mp-28040,Hf(BH4)4,5.7195,Cubic,0,1
+mp-17807,LiUNbO6 ,1.8096,Monoclinic,0,0
+mp-18651,Sr3DyRhO6 ,2.1335,Trigonal,1,1
+mp-9397,HfTlCuSe3 ,0.419999999999999,Orthorhombic,1,1
+mp-29410,Li2B2S5 ,2.4427,Orthorhombic,1,0
+mp-9855,KHfCuS3 ,0.757,Orthorhombic,1,1
+mp-28238,Ba4Sb4Se11 ,1.138399999999999,Orthorhombic,0,0
+mp-28324, Sr3(InP2)2,0.5893,Orthorhombic,1,1
+mp-10802,RbAs ,0.5879000000000001,Orthorhombic,0,0
+mp-12881,Ba3NbGa3(SiO7)2 ,3.2958,Trigonal,1,0
+mp-9498,Nd2C(NO)2,3.7725,Trigonal,1,1
+mp-6356,Cd2GaAgS4 ,1.0437,Orthorhombic,1,1
+mp-555113,Rb3Cu2(BiS2)5,0.8123,Orthorhombic,0,0
+mp-561254,NaLi3GeO4 ,3.7766,Tetragonal,0,0
+mp-11020,GaAgO2 ,0.583299999999999,Hexagonal,1,1
+mp-8568,Ca4PtO6 ,2.3407,Trigonal,1,1
+mp-29149,Li4NCl ,1.7617,Trigonal,0,1
+mp-27373,SnClF ,3.443799999999999,Orthorhombic,1,0
+mp-581696,CsLu2Cu3Se5 ,1.2562,Orthorhombic,1,1
+mp-8145,RbScO2 ,3.3013,Trigonal,1,1
+mp-11118,CsPrCdSe3 ,1.9664,Orthorhombic,1,1
+mp-17677,Nb9PO25 ,2.1092,Tetragonal,0,0
+mp-17678,Sr(ScS2)2,1.356999999999999,Orthorhombic,1,1
+mp-770280,Li6Bi(BO3)3,4.2046,Monoclinic,0,0
+mp-755738,Rb2O ,1.6455000000000002,Orthorhombic,1,0
+mp-772098,Sm(ClO4)3,4.9304000000000014,Hexagonal,0,0
+mp-561455,Ba8Sb6S17 ,1.687999999999999,Monoclinic,0,0
+mp-568828,Hg6BiSb4Br7 ,1.079,Cubic,0,0
+mp-11321,Y3TaO7 ,3.5002,Orthorhombic,0,0
+mp-510462,CsDyZnTe3 ,1.3714,Orthorhombic,1,1
+mp-984605,Ca3SnH2 ,0.111799999999999,Orthorhombic,0,1
+mp-12490,CsHoCdTe3 ,1.546799999999999,Orthorhombic,1,1
+mp-28383,KNaS ,2.4851,Orthorhombic,1,1
+mp-984107,K3IO5 ,1.497999999999999,Tetragonal,0,0
+mp-569507,TbTlSe2 ,1.2548,Trigonal,1,1
+mp-15557,Cs2As3 ,0.447499999999999,Orthorhombic,0,1
+mp-13975,Er2SeO2 ,2.1741,Trigonal,1,1
+mp-18005,NaYTiO4 ,2.3722,Orthorhombic,0,0
+mp-561902,CsAg3S2 ,0.4114,Monoclinic,1,1
+mp-3448,KMgF3 ,6.9537,Cubic,1,1
+mp-12621,NdTeF ,0.418099999999999,Tetragonal,1,1
+mp-20194,CeO2 ,1.8647,Cubic,1,1
+mp-18549,Ba6Mg7F26,6.8522,Orthorhombic,0,0
+mp-573710,TbCsZnSe3 ,2.1028,Orthorhombic,1,1
+mp-27767,Li6Si2O7,4.995699999999999,Tetragonal,1,1
+mp-557665,K3Sn5Cl3F10,3.2314,Orthorhombic,0,0
+mp-8872,RbNa2BO3 ,2.9275,Orthorhombic,1,1
+mp-582259,Li7VN4,2.1867,Tetragonal,1,1
+mp-757850,K4Sb2O5,2.5575,Orthorhombic,0,0
+mp-16764,RbYTe2,1.356299999999999,Hexagonal,1,1
+mp-753425,LiCuCO3 ,1.8518999999999992,Orthorhombic,0,0
+mp-10804,NaYPO4F ,5.494400000000001,Monoclinic,0,0
+mp-16061,Sr6Sb6S17,1.8482,Orthorhombic,0,0
+mp-16118,RbDy2CuSe4 ,0.9249,Orthorhombic,1,0
+mp-23714,SrH2 ,3.1544,Orthorhombic,1,1
+mp-13971,Nd2SeO2 ,2.151099999999999,Trigonal,1,1
+mp-972120,Sr(GaAs)2 ,0.155899999999999,Monoclinic,1,1
+mp-18652,Sr3HoRhO6 ,2.160199999999999,Trigonal,1,1
+mp-29236,InTeBr ,1.735599999999999,Monoclinic,0,0
+mp-571668, CdI2,2.3803,Trigonal,0,0
+mp-3118,Mg3TeO6 ,2.9101,Trigonal,1,1
+mp-555909,Tb5Se2Cl3O10 ,3.7466,Monoclinic,0,0
+mp-14448,Ba2SiTe4,1.1029,Monoclinic,0,1
+mp-28663,Mg14Si5O24,4.9499,Orthorhombic,1,1
+mp-8269, Lu2CdS,1.2348,Cubic,1,1
+mp-8500,AsS2NF6 ,2.608,Monoclinic,0,0
+mp-560978,Ba4Al2O7 ,3.6788,Orthorhombic,0,0
+mp-24119,Ca2HN ,1.6356000000000002,Cubic,1,1
+mp-755756,Y2TeO2,0.7401,Tetragonal,0,0
+mp-22982,CuBiS2 ,0.464,Orthorhombic,1,1
+mp-540912,As3Ir ,0.026799999999999,Cubic,1,1
+mp-37605,LiNdSe2,1.587299999999999,Tetragonal,1,1
+mp-13334,ZnSnO3 ,1.080999999999999,Trigonal,1,1
+mp-753173,HoIO,3.4546,Tetragonal,0,1
+mp-773067,Er3TaO7 ,3.5941,Orthorhombic,0,0
+mp-8198,Rb3Cu5O4 ,1.580299999999999,Monoclinic,1,0
+mp-23364,CsLiCl2 ,5.0329,Tetragonal,1,0
+mp-18625,KPSe6 ,1.9067,Orthorhombic,0,0
+mp-17357,NaSmSiO4,4.2786,Tetragonal,0,0
+mp-779001,Sr4Hf3O10 ,4.1291,Orthorhombic,0,0
+mp-6663,NaLiGe4O9 ,2.7559,Orthorhombic,0,0
+mp-8414,K2HfF6 ,6.8994,Cubic,0,0
+mp-8226,ThNF ,2.259,Trigonal,1,1
+mp-542482,CsEr2Cu3Se5 ,1.2246,Orthorhombic,0,1
+mp-754621,Sm2Ge2O7,3.872899999999999,Monoclinic,0,0
+mp-560558,CsCdAuS2 ,2.0699,Orthorhombic,0,1
+mp-31488,Li3NbO4,3.8385,Cubic,0,1
+mp-771248,Na2Ge2O5,2.9897,Orthorhombic,1,0
+mp-706621,KB5(H2O3)4,5.804,Orthorhombic,1,0
+mp-30533,KPt2S3 ,1.273899999999999,Trigonal,1,1
+mp-24409,PH4I,3.6789,Tetragonal,1,1
+mp-768986,Li5BiO4,2.0583,Tetragonal,0,0
+mp-559695,Cs2RbBiF6,4.7749,Cubic,0,0
+mp-7212,CsSmHgSe3 ,1.3625,Orthorhombic,1,1
+mp-30252,Na10CaSn12,0.416399999999999,Cubic,1,1
+mp-2940,LuPO4 ,5.9556,Tetragonal,1,1
+mp-16763,KYTe2 ,1.2981,Trigonal,1,1
+mp-582081,Cs3NdCl6 ,5.0145,Orthorhombic,0,0
+mp-28562,RbAsSe2,1.6541,Monoclinic,0,0
+mp-10191,Lu2MgSe4 ,1.476999999999999,Cubic,1,1
+mp-2514,Mg3P2 ,1.798099999999999,Cubic,1,1
+mp-6798,Ba2NaReO6 ,1.8688,Cubic,0,0
+mp-753418,SrNd2O4,3.6022,Cubic,1,1
+mp-27267,ReP4 ,0.8553000000000001,Orthorhombic,1,1
+mp-568011,K3P5RuSe10,1.0744,Monoclinic,0,0
+mp-17012,Sr2VN3 ,1.518399999999999,Monoclinic,1,0
+mp-27747,PdI2 ,0.9294,Monoclinic,1,0
+mp-21872,PrLuO3,4.8757,Orthorhombic,1,1
+mp-3884,Ho2Sn2O7 ,2.7013,Cubic,1,1
+mp-23837,NdH3(CO2)3 ,4.182,Trigonal,0,0
+mp-17446,PrPtF7 ,2.4352,Monoclinic,0,0
+mp-24090, BaH4(IO)2,3.6583,Monoclinic,1,0
+mp-27376,Rb6Si10O23,4.468400000000001,Orthorhombic,0,0
+mp-555805,AlSCl7 ,2.4961,Monoclinic,0,0
+mp-756290,TbGaO3 ,3.9217999999999993,Orthorhombic,1,1
+mp-6182,Tb2CsCu3Se5 ,1.1974,Orthorhombic,0,1
+mp-24422,CaHBr ,4.1152,Tetragonal,1,1
+mp-7972,RbLaO2 ,3.522,Trigonal,1,1
+mp-29288,TlGeI3 ,1.9161,Orthorhombic,0,0
+mp-643001,Na4H6Ru ,2.0349,Trigonal,1,1
+mp-22990,CsICl2 ,2.2301,Trigonal,0,0
+mp-12012,KPrGeSe4 ,1.6332,Monoclinic,0,0
+mp-20493,Mg(InS2)2 ,1.764399999999999,Cubic,1,1
+mp-21459,InAgS2 ,0.5082,Orthorhombic,1,1
+mp-27355,Pb2OF2 ,2.851099999999999,Tetragonal,1,1
+mp-604147,Na2Li(H2N)3,2.6106,Tetragonal,0,0
+mp-753226,SmAgO2 ,2.5292,Trigonal,0,1
+mp-8355,KAlSiO4,4.5021,Hexagonal,0,0
+mp-559608,K3NdSi7O17 ,4.721500000000001,Trigonal,0,0
+mp-5874,TlAgTe,0.6385000000000001,Orthorhombic,1,1
+mp-557319,InH8C4NO10 ,3.5672,Hexagonal,0,0
+mp-16281,Cd2Sb2O7 ,0.5581,Orthorhombic,0,0
+mp-6181,NaNb(CuS2)2,1.7198,Orthorhombic,0,1
+mp-7726,Rb2UO4 ,1.8996,Tetragonal,1,1
+mp-12112,CdP2 ,1.4562,Tetragonal,1,1
+mp-17667,Sr3AlSb3 ,0.5371,Orthorhombic,1,0
+mp-10340,Na2GeTeO6 ,2.6629,Trigonal,1,0
+mp-758894,Li2Ti(TeO4)3 ,1.7739,Monoclinic,0,0
+mp-7046,RbDyS2 ,2.3216,Trigonal,1,1
+mp-505709,CsSmZnSe3,2.042399999999999,Orthorhombic,1,1
+mp-758196,Mg3(AsO4)2 ,3.0315,Tetragonal,0,0
+mp-315,PbF2 ,4.3938,Cubic,1,1
+mp-558658,Y2C(NO)2,3.9392,Hexagonal,1,1
+mp-10733,Sm2O3 ,3.9371,Trigonal,1,1
+mp-752437,SmInO3 ,2.9444,Orthorhombic,1,1
+mp-27752,Na6Ge2S7 ,2.4264,Monoclinic,1,0
+mp-15782,KPrS2 ,2.2688,Trigonal,1,0
+mp-8818,Ca2ZnN2 ,0.7618,Tetragonal,1,1
+mp-4123,ErTlS2 ,1.4109,Trigonal,1,1
+mp-30991,Ba(IO3)2 ,3.543599999999999,Monoclinic,0,0
+mp-559719,LiPr(SO4)2,5.3953,Monoclinic,0,0
+mp-541732,Al3Pb5F19 ,5.1871,Tetragonal,0,0
+mp-557667,Ge3Pb5O11 ,2.411299999999999,Hexagonal,0,0
+mp-554623,Sm2Ta2Cl2O7,3.1249,Monoclinic,0,0
+mp-756294,Li2Ti2O5 ,3.7999,Orthorhombic,1,0
+mp-32780,AuCl ,1.674399999999999,Tetragonal,0,1
+mp-17380,Ba2Ca(PdO2)3,1.4866,Orthorhombic,0,1
+mp-866660,K3P2AuSe8 ,1.195799999999999,Monoclinic,0,0
+mp-505177,TiIn2O5 ,1.9707,Orthorhombic,1,0
+mp-6730,Sr3ZnPtO6 ,2.566099999999999,Trigonal,1,1
+mp-18391,Sm2Si2O7 ,4.9072000000000005,Monoclinic,0,0
+mp-18217,K3AlSe3 ,2.7325,Monoclinic,0,0
+mp-9518,NdZnPO ,1.231799999999999,Trigonal,1,1
+mp-556995,Nd2O3 ,3.6365,Monoclinic,0,1
+mp-24012,HoHSe ,1.4981,Hexagonal,1,1
+mp-570117,ErTlSe2 ,1.2151,Trigonal,1,1
+mp-754212,BaSr2I6,3.9765,Trigonal,1,0
+mp-28554,Ca2AsI ,1.5566,Trigonal,1,1
+mp-549728,DyZnPO ,1.2613,Trigonal,1,1
+mp-15170,Lu2Sn2O7,2.618299999999999,Cubic,1,1
+mp-1143,Al2O3,5.853700000000001,Trigonal,1,1
+mp-13445,Rb2As2Pt ,0.4342,Orthorhombic,1,1
+mp-559730, KGa(Te3O7)2,3.0235,Cubic,0,0
+mp-27776,Cd2AsCl2,1.0845,Monoclinic,0,0
+mp-29927,Pb7(BrF6)2,4.0634000000000015,Hexagonal,0,1
+mp-22932,KInBr4 ,2.8234,Orthorhombic,0,0
+mp-39226,SrLa4TiAl4O15 ,2.099999999999999,Orthorhombic,0,0
+mp-28079,Na2Mn2S3 ,0.4915,Monoclinic,1,1
+mp-540921,CsCuF4 ,1.5436,Tetragonal,0,0
+mp-30241,Mg5(HO3)2,3.8683,Trigonal,0,1
+mp-11025,ZnP2 ,1.4617,Tetragonal,1,1
+mp-821,NbO2 ,0.426,Tetragonal,0,0
+mp-29901,Rb2Cd3Te4 ,1.4415,Monoclinic,1,0
+mp-27135,Bi(PO3)3,4.6172,Monoclinic,0,0
+mp-558373,PrNb3O9 ,2.848499999999999,Monoclinic,0,0
+mp-23569,AsSe6IF6 ,1.577,Monoclinic,0,0
+mp-5116,K6Ge2O7 ,3.0827,Monoclinic,0,0
+mp-14652,Cs2P3,0.8470999999999991,Orthorhombic,0,1
+mp-18065,BaCaAlF7,7.1873000000000005,Monoclinic,0,0
+mp-17240,RbNa3Li12(SiO4)4,4.8031,Tetragonal,0,1
+mp-7176,RbLaSe2,2.32,Trigonal,1,1
+mp-633099,Sb2Pb2O7 ,1.6486,Orthorhombic,0,0
+mp-672273,AlBiCl6 ,3.7568,Monoclinic,0,0
+mp-5081,SmCuS2,1.1678,Monoclinic,1,1
+mp-11792,PrCuSe2 ,0.745499999999999,Monoclinic,1,1
+mp-13820,Cd3SiO5 ,0.9679,Tetragonal,1,1
+mp-29775,Sr4PdO6,1.4647,Trigonal,1,1
+mp-10488,Cs2Ti(AgS2)2,1.6053000000000002,Tetragonal,1,1
+mp-4175,ZnSnP2 ,0.704299999999999,Tetragonal,1,1
+mp-23210,MgCl2 ,5.6168,Trigonal,1,1
+mp-9396,HfTlCuS3 ,0.7967000000000001,Orthorhombic,1,1
+mp-7461,Hg2SO4,1.9921,Monoclinic,0,0
+mp-28695,KSiH3 ,2.5733,Orthorhombic,1,1
+mp-9082,CsSmS2 ,2.1397,Trigonal,0,1
+mp-549333,NdBi2IO4 ,1.265399999999999,Tetragonal,1,1
+mp-15704,BeSiN2 ,3.5618,Tetragonal,1,1
+mp-696804,RbHS,3.0844,Monoclinic,0,1
+mp-556062,NaNb4Tl3P2O17 ,2.5448,Orthorhombic,0,0
+mp-675798,NaHoF4 ,6.8743,Tetragonal,1,1
+mp-554364,MgBeAl4O8,5.5286,Hexagonal,0,1
+mp-754535,LaAgO2,2.8013,Hexagonal,1,1
+mp-23801,K2H2IrCl5O ,1.8583,Orthorhombic,0,0
+mp-12866,SrSnO3 ,1.6118,Orthorhombic,0,0
+mp-558105,LiB6O9F ,6.4556,Orthorhombic,0,0
+mp-504922,UPbO4 ,1.5098,Orthorhombic,0,0
+mp-224,WS2 ,1.2557,Hexagonal,1,1
+mp-560870,BaGa2B2O7 ,3.984199999999999,Orthorhombic,1,0
+mp-15408,KGaF4 ,5.4353,Orthorhombic,0,0
+mp-559903,NaLa(SeO3)2,3.6164,Monoclinic,0,0
+mp-23025,LaClO,4.0688,Tetragonal,1,1
+mp-23040,Ca2PI ,1.6997,Trigonal,1,1
+mp-8409,KYO2 ,3.973899999999999,Trigonal,1,1
+mp-3041,Er2CdS4,1.1479,Cubic,1,1
+mp-642817,KHO,3.6423,Monoclinic,1,1
+mp-754827,Tm2TeO2,0.409399999999999,Trigonal,1,1
+mp-29091,Ti(CuS)4,1.4256,Tetragonal,1,1
+mp-7562,TaTl3S4 ,2.532499999999999,Cubic,0,1
+mp-3288,CsNO2 ,2.3632,Trigonal,0,1
+mp-4547,La2TeO2 ,2.028699999999999,Tetragonal,1,1
+mp-4019,CaTiO3 ,2.3053,Orthorhombic,1,1
+mp-556463,KGe2BO6,3.498,Orthorhombic,0,0
+mp-18582,Rb2Ti(Si2O5)3,3.5096,Monoclinic,0,0
+mp-17114,Nd2Sn2O7 ,2.6738,Cubic,1,1
+mp-3405,NaAl11O17 ,4.491,Hexagonal,0,1
+mp-643061,Mg3ReH7 ,2.6637,Hexagonal,0,0
+mp-14951,Rb3AlO3 ,2.651399999999999,Monoclinic,0,0
+mp-559065,NaI3O8 ,3.1418,Tetragonal,0,0
+mp-27417,Li3InO3,2.8905000000000003,Trigonal,1,0
+mp-542694,HI3O8 ,2.5131,Monoclinic,0,0
+mp-30250,YAgO2,2.4154,Hexagonal,1,1
+mp-12495,TbCsCdTe3,1.5409000000000002,Orthorhombic,1,1
+mp-770806,Sm2TiO5 ,3.308899999999999,Orthorhombic,0,0
+mp-28657,Na2MgCl4 ,4.9057,Orthorhombic,1,1
+mp-541601,KPr(PO3)4,5.3491,Monoclinic,0,0
+mp-862947,Ba2BiAu ,0.422799999999999,Cubic,1,1
+mp-772497,Er4(B2O5)3,5.629899999999999,Monoclinic,0,0
+mp-15783,KSmS2 ,2.2759,Trigonal,1,1
+mp-558573,Y2O3 ,3.9557,Monoclinic,1,1
+mp-29245,Cd2P3Br ,1.1583,Monoclinic,1,1
+mp-22186,In6Ge2PtO9 ,1.3445,Cubic,1,1
+mp-24074,Dy(HO)3,3.7109,Hexagonal,0,0
+mp-769138,Dy2Sb2O7,1.8990999999999991,Trigonal,0,0
+mp-755138,NdInO3 ,2.653299999999999,Orthorhombic,1,1
+mp-20187,LiInSe2 ,1.5731000000000002,Tetragonal,1,1
+mp-30990,K6Si2O7 ,3.5108,Monoclinic,1,0
+mp-29296,CsSbF4 ,4.4026,Orthorhombic,0,0
+mp-571213,PNCl2 ,3.8805,Tetragonal,0,0
+mp-556709,Na2ZrSiO5,4.0111,Monoclinic,0,0
+mp-683905,K3Ta2AsSe11 ,1.208699999999999,Monoclinic,0,0
+mp-989623,SrReN3 ,1.9969,Monoclinic,0,0
+mp-768633,Sr2LaCl7,4.0849,Monoclinic,1,0
+mp-9503,BaDyCuTe3 ,0.5186000000000001,Orthorhombic,1,1
+mp-568543,Na2SnSe3,1.3282999999999991,Monoclinic,0,0
+mp-2176,ZnTe ,1.073299999999999,Cubic,1,1
+mp-8898,TaAlO4 ,3.282,Orthorhombic,1,1
+mp-989565,Rb2TlGaF6 ,4.4038,Cubic,0,0
+mp-621924,BaCdGaF7 ,4.4668,Monoclinic,0,0
+mp-772820,SrLu2O4 ,4.1641,Orthorhombic,1,1
+mp-18711,LiNd(PO3)4,5.9792000000000005,Monoclinic,0,0
+mp-23442,KCdCl3 ,3.5095,Orthorhombic,1,0
+mp-752413,Ca2HfO4 ,3.8409999999999993,Orthorhombic,1,1
+mp-23559, In(IO3)3,3.0751,Trigonal,0,0
+mp-759707,Sb4O5F2 ,3.0228,Orthorhombic,0,0
+mp-550117,Sm4Se3O4,1.289099999999999,Orthorhombic,1,1
+mp-9759,BaPr2PdO5 ,2.138899999999999,Tetragonal,1,1
+mp-17998,Ca(RhO2)2,0.823399999999999,Orthorhombic,0,1
+mp-550820,SmZnPO ,1.3609,Trigonal,1,1
+mp-571010,CsEr(TaBr3)6,1.0084,Trigonal,0,0
+mp-755574,LuAlO3 ,6.091399999999999,Orthorhombic,1,1
+mp-8017,AlCuTe2 ,1.0186,Tetragonal,1,1
+mp-29090,Rb4Au6S5 ,1.6880000000000002,Hexagonal,1,0
+mp-22737,Sb8(PbS5)3,1.6402,Monoclinic,0,0
+mp-5409,Y4Al2O9 ,4.3738,Monoclinic,0,0
+mp-10783,RbHoSe2 ,1.958699999999999,Trigonal,1,1
+mp-8111,LaOF ,4.204999999999999,Trigonal,1,1
+mp-11124,CsLaHgSe3 ,1.4545,Orthorhombic,0,1
+mp-752411,Tm2Pb2O7 ,1.1489,Cubic,1,1
+mp-29877,K2ReH9 ,5.212999999999999,Hexagonal,1,1
+mp-28641,ThB2O5,4.8178,Monoclinic,0,0
+mp-28419,K2TeSe3 ,1.7896,Monoclinic,0,0
+mp-4006,ErPO4 ,5.919600000000001,Tetragonal,1,1
+mp-755342,LuGaO3,2.5134,Hexagonal,0,0
+mp-558608,Nb2PbO6 ,2.461499999999999,Trigonal,0,0
+mp-755239,Ga2HgO4 ,0.5638000000000001,Cubic,1,1
+mp-542067,Rb4Ti3S14 ,1.242899999999999,Monoclinic,1,0
+mp-17785,KNa2GaO3 ,2.5055,Orthorhombic,1,0
+mp-24126,Sr3Al2(HO)12,4.012,Cubic,0,0
+mp-756922,Ho2SO2 ,2.8696,Hexagonal,1,1
+mp-758925,Na6Zn3As4H6O19 ,3.0051,Cubic,0,0
+mp-754146,Rb3YO3 ,2.0565,Monoclinic,0,0
+mp-27716,KTlO ,1.1638,Monoclinic,1,1
+mp-23293,TbCl3,3.7966,Orthorhombic,1,1
+mp-556665,TlBiP2S7 ,2.2214,Monoclinic,0,0
+mp-546864,Y2C(NO)2 ,3.9661,Trigonal,1,1
+mp-21511,K2NaInP2 ,1.0504,Orthorhombic,1,1
+mp-18258,Tb2BaO4 ,3.2062,Orthorhombic,1,1
+mp-13743,K3GaO3 ,2.6237,Monoclinic,1,0
+mp-23167,TlCl ,2.1732,Cubic,1,1
+mp-643022,Rb3H5Pd ,2.605699999999999,Tetragonal,1,1
+mp-574571,Rb3YCl6,5.0164,Monoclinic,0,0
+mp-2416,YF3 ,7.545699999999999,Orthorhombic,1,1
+mp-530714,Ba14AlSb11 ,0.7923999999999991,Tetragonal,1,0
+mp-4360,NaCdF3 ,3.482,Trigonal,1,1
+mp-29678,AgBiS2 ,0.5212,Trigonal,1,1
+mp-15432,K2Ga2As3,1.670399999999999,Monoclinic,1,0
+mp-541622,KCu3Te2 ,0.423799999999999,Monoclinic,0,1
+mp-510065,CsNdHgSe3 ,1.353899999999999,Orthorhombic,1,1
+mp-559574,K3Sm(BO3)2,3.5401,Orthorhombic,0,0
+mp-17410,CsEr3Se5 ,1.6727999999999992,Orthorhombic,0,0
+mp-22566,TlInS2 ,0.6884,Trigonal,0,1
+mp-7211,CsPrHgSe3,1.3367,Orthorhombic,1,1
+mp-560571,LaPS4 ,2.4374,Tetragonal,1,0
+mp-655591,LiB13C2 ,2.6452,Orthorhombic,1,1
+mp-14340,Rb2Pd3Se4 ,0.882599999999999,Orthorhombic,1,1
+mp-557163,TaPbF7,5.132499999999999,Monoclinic,1,0
+mp-554105,CdAg2GeS4,0.5785,Orthorhombic,1,1
+mp-9366,RbHoS2 ,2.3355,Trigonal,1,1
+mp-549737,Ba2Ca(BO3)2,4.080500000000001,Monoclinic,1,0
+mp-559112,K2Zn6O7 ,0.7918000000000001,Tetragonal,0,0
+mp-634117,BH3 ,5.3252,Monoclinic,1,0
+mp-7644,LuAsO4 ,3.557299999999999,Tetragonal,1,0
+mp-541044,CsYO2 ,2.8461,Hexagonal,1,1
+mp-15577,Pr4Ga2O9,3.8475,Monoclinic,0,0
+mp-560263, Pr4Se3(O5F3)2,4.005800000000001,Monoclinic,0,0
+mp-5737,TbCuS2 ,1.1832,Monoclinic,1,1
+mp-10408,K2CN2 ,3.1433,Monoclinic,1,1
+mp-568628,CsHg5Cl11,2.700199999999999,Monoclinic,0,0
+mp-6040,BaBPO5 ,5.495,Trigonal,0,0
+mp-755116,In2Pt2O7 ,2.196199999999999,Cubic,1,1
+mp-570921,CsLu(NbCl3)6,0.946299999999999,Trigonal,1,0
+mp-8147,K2As2Pd,0.645799999999999,Orthorhombic,1,1
+mp-754466,Li2AgF3 ,2.0539,Trigonal,0,0
+mp-707876,Ca3Be2P4(HO2)10,5.1849,Monoclinic,0,0
+mp-557738,Li3BiO4,1.2236,Tetragonal,0,0
+mp-978093,Ho2S3 ,2.4745,Trigonal,1,1
+mp-17714,Ho4(B2O5)3,5.578699999999999,Monoclinic,0,0
+mp-5492,SrAl2O4 ,4.0563,Hexagonal,0,0
+mp-17400,Ba2TaN3 ,2.0155,Monoclinic,0,0
+mp-649774,CuSbPbS3,0.7698,Orthorhombic,1,0
+mp-7477,RbErO2 ,3.6429,Trigonal,1,1
+mp-5808,RbNdTe2 ,1.299399999999999,Trigonal,1,1
+mp-3872,Mg(AlS2)2,3.1447,Orthorhombic,1,1
+mp-7756,SrLiSb ,0.6857999999999991,Orthorhombic,1,1
+mp-555021,TePbO3 ,2.6752,Tetragonal,0,0
+mp-16033,Sm2TeO2 ,1.4893,Tetragonal,1,1
+mp-12491,CsLaCdTe3 ,1.730099999999999,Orthorhombic,1,1
+mp-10779,RbNdSe2 ,1.8958,Trigonal,1,1
+mp-14422,Ca(AlS2)2,3.4146,Orthorhombic,1,0
+mp-680294,Tl2Cl3 ,1.878899999999999,Orthorhombic,0,0
+mp-29509,Zn(AsO2)2,3.546699999999999,Monoclinic,0,0
+mp-555574,Dy2O3 ,3.997499999999999,Monoclinic,1,1
+mp-27192,CsBe2F5 ,7.180899999999999,Cubic,0,0
+mp-19921,PbO ,1.4635999999999991,Tetragonal,1,1
+mp-756935,Li3SbO3 ,2.9787,Cubic,0,0
+mp-28595,KNaSe ,2.0175,Orthorhombic,1,1
+mp-15315,Ca4Ti3O10 ,2.4425,Orthorhombic,0,0
+mp-4190,CaSnO3 ,2.937899999999999,Trigonal,1,1
+mp-542013,Rb4Zr3Se14 ,1.4843,Monoclinic,0,0
+mp-768906,YBrO ,4.4849,Tetragonal,1,1
+mp-10572,NaPN2 ,4.6812000000000005,Tetragonal,1,1
+mp-865101,NaLi2Bi ,0.6303000000000001,Cubic,1,1
+mp-8584,NaErSe2,1.9258,Trigonal,1,1
+mp-11641,Ag2SeO4,0.426399999999999,Orthorhombic,1,0
+mp-626161,Al5HO8 ,0.0306,Hexagonal,1,1
+mp-644092,Na2LiAlH6,2.6364,Cubic,0,0
+mp-23950,K(BH)3,5.0082,Cubic,0,0
+mp-27703,InBrO ,1.9948,Orthorhombic,1,0
+mp-6698,Th2Cu(PO4)3 ,2.9463,Monoclinic,0,0
+mp-760729,Ca2Ga2Si(HO4)2,3.5382,Tetragonal,1,0
+mp-28805,Tl2Pt5S6 ,0.9724,Monoclinic,1,1
+mp-12487,CsDyCdTe3,1.5476,Orthorhombic,1,1
+mp-9657,LiAsO3,3.385799999999999,Trigonal,1,1
+mp-30164,CsSn2Cl5 ,3.0582,Tetragonal,0,0
+mp-4530,Cd2SiO4 ,1.462999999999999,Orthorhombic,1,1
+mp-17363,BaHo2O4,3.2256,Orthorhombic,1,1
+mp-28744,Y4OsBr4,0.6995,Monoclinic,1,0
+mp-570418,YbI2 ,4.007,Trigonal,1,1
+mp-2447,P4Se5 ,1.8351,Orthorhombic,0,0
+mp-9488,SmOF ,4.6648,Trigonal,1,1
+mp-812,Ho2O3 ,3.9457999999999993,Cubic,1,1
+mp-10780,RbSmSe2,1.899,Trigonal,1,1
+mp-2956,Co2(GeS)3,0.5427999999999991,Trigonal,1,1
+mp-8411,Na2AgAs ,0.7266,Orthorhombic,1,1
+mp-779145,Lu3TaO7 ,3.502799999999999,Orthorhombic,0,0
+mp-567836,K2NaBP2 ,1.771,Monoclinic,1,1
+mp-675620,Nd2PbS4 ,1.7921,Tetragonal,1,0
+mp-29075,Ga3Bi5Cl12 ,1.8134,Trigonal,0,0
+mp-5273,KPrTe2 ,1.279999999999999,Trigonal,1,1
+mp-676110,Tb14(PbSe8)3,1.821199999999999,Monoclinic,1,0
+mp-7596,NbNO,1.5556,Monoclinic,1,1
+mp-29254,PrIO,3.6584,Tetragonal,1,1
+mp-755350,BaLaI5 ,2.3708,Monoclinic,1,0
+mp-34078,H3ClO ,5.3864,Trigonal,1,1
+mp-18042,Tb2SrO4 ,3.6672,Orthorhombic,1,1
+mp-3904,Mg2GeO4 ,3.0734,Cubic,1,1
+mp-28994,KLi2As ,0.6878000000000001,Orthorhombic,1,1
+mp-12497,CsSmCdTe3 ,1.5693,Orthorhombic,1,1
+mp-684,BaS2 ,1.598199999999999,Monoclinic,1,1
+mp-17112,K3Ge4Au ,0.8175999999999991,Orthorhombic,1,0
+mp-556390,Rb10Si6O17 ,3.3796,Orthorhombic,0,0
+mp-752537,Sr2HfO4 ,3.4581,Orthorhombic,1,1
+mp-2275,UF6 ,2.7943,Orthorhombic,0,0
+mp-15157,Cs2CaF4 ,6.091,Tetragonal,0,1
+mp-33940,Mg2PtO4 ,1.077399999999999,Orthorhombic,1,1
+mp-16684,PrCuS2 ,1.0678,Monoclinic,1,1
+mp-554825,K2SnP2O7,4.1651,Monoclinic,0,0
+mp-22634,K4SrU3O12 ,2.0683,Cubic,0,0
+mp-3688,Er2Sn2O7 ,2.6825,Cubic,1,1
+mp-9362,RbPrS2 ,2.2686,Trigonal,1,1
+mp-568100,ReNCl4 ,1.0777,Tetragonal,0,0
+mp-4578,Sr2GeS4,2.329099999999999,Monoclinic,0,1
+mp-29576,Cd7P10 ,1.080099999999999,Orthorhombic,0,1
+mp-22965,BiTeI ,1.2325,Trigonal,1,1
+mp-754853,CaHfO3 ,4.4855,Orthorhombic,1,1
+mp-975666,PrBrO ,4.462199999999999,Tetragonal,1,1
+mp-18710,RbSm2Ag3Se5,1.049599999999999,Orthorhombic,1,1
+mp-569224,SbI3 ,2.2057,Monoclinic,0,0
+mp-13948,Cs2HfF6 ,7.2288,Trigonal,0,0
+mp-558238,KEr2F7,7.1825,Orthorhombic,0,0
+mp-27834,Tl2PtCl6 ,1.7373999999999992,Cubic,1,1
+mp-13568,NdS2 ,0.3379,Monoclinic,1,1
+mp-561305,BaZnSiO4 ,3.5863,Hexagonal,0,0
+mp-12488,CsErCdTe3 ,1.5492,Orthorhombic,1,1
+mp-3626,SrZrO3 ,3.416,Orthorhombic,0,0
+mp-24341,CsBeH3 ,3.2298,Monoclinic,0,1
+mp-14676,NdTa7O19,3.161299999999999,Hexagonal,0,0
+mp-27398,TlBr2 ,1.7922,Orthorhombic,0,0
+mp-560036,Li2Ca3Be3Si3(O6F)2,5.8431000000000015,Cubic,1,0
+mp-642735,Rb2H4Pt ,3.2877,Tetragonal,1,1
+mp-977414, ZnSi(CuS2)2 ,1.282299999999998,Orthorhombic,1,1
+mp-15833,Zn4P6SN12,4.092599999999999,Cubic,1,1
+mp-24534,CaH4SeO6 ,3.8816,Monoclinic,0,0
+mp-557070,Ca2BiAsO6 ,3.2393,Orthorhombic,0,0
+mp-559210,Ca5Te3O14,1.8605,Orthorhombic,0,0
+mp-556867,K2PrZr(PO4)3,4.4282,Cubic,0,0
+mp-19803,CdIn2O4 ,0.9137,Cubic,1,1
+mp-621612,AgPb2Br5 ,1.9341,Monoclinic,0,0
+mp-560086,Nd4(GeS4)3,1.9962,Trigonal,0,0
+mp-9365,TbRbS2,2.3079,Trigonal,1,1
+mp-29128,K2Te4O9 ,2.9189,Monoclinic,0,0
+mp-14912,La4Si2Se3O7 ,2.2305,Tetragonal,0,0
+mp-17412,BaPr2O4 ,3.0759,Orthorhombic,1,1
+mp-4425,Ta2Pt3Se8 ,0.6803,Orthorhombic,1,1
+mp-28222,Rb3Sb2Br9 ,1.9050999999999991,Trigonal,0,0
+mp-14288,Sr3P4 ,0.8898,Orthorhombic,1,1
+mp-3771,MgTiO3 ,3.529499999999999,Trigonal,1,1
+mp-33406,La2PbSe4 ,1.92,Tetragonal,1,1
+mp-757343,Ca4Bi6O13 ,1.7193,Monoclinic,0,0
+mp-2798,SiP,1.7395,Orthorhombic,1,1
+mp-463,KF ,5.949400000000001,Cubic,1,1
+mp-559702,Pr2Ta2Cl2O7 ,3.0662,Monoclinic,0,0
+mp-545544,Ba2TaBiO6 ,2.536299999999999,Monoclinic,0,0
+mp-27127,Te4O9 ,2.2225,Trigonal,0,0
+mp-555843,Ag3AsS3,1.6989,Trigonal,0,0
+mp-9384,CsAu3S2 ,2.3501,Trigonal,0,1
+mp-4891,HoAlO3 ,5.8359000000000005,Orthorhombic,1,1
+mp-35647,Zn2PtO4 ,0.6309,Orthorhombic,1,1
+mp-7337,NdAl3(BO3)4,5.308399999999999,Trigonal,1,0
+mp-4598,Sr4PtO6 ,2.1959,Trigonal,1,1
+mp-29983,Cs6Cl4O ,1.9928,Trigonal,0,0
+mp-557227,KCa12Si4S2O26F,4.2813,Trigonal,0,0
+mp-549127,HoBi2ClO4 ,1.370999999999999,Tetragonal,1,1
+mp-13972,Sm2SeO2,2.1358,Trigonal,1,1
+mp-757442,Ca3In2O6 ,2.238099999999999,Orthorhombic,0,0
+mp-554015,CsK(ClO4)2,5.5307,Trigonal,0,0
+mp-754989,Er(BiO2)3,2.1356,Trigonal,0,0
+mp-29836,Na3HoCl6,5.2296,Monoclinic,0,0
+mp-862693,BaNaH3Pd,1.5042,Hexagonal,0,0
+mp-34144,MgAl2O4 ,4.5921,Trigonal,0,1
+mp-9509,K2PAuS4 ,1.5691000000000002,Monoclinic,0,0
+mp-557836,Na5B2P3O13,5.079,Monoclinic,0,0
+mp-22989,NaIO3,3.6962,Orthorhombic,0,0
+mp-17841,Mg4Nb2O9,3.4212,Trigonal,1,1
+mp-557450,Na2PtO3 ,1.4682,Monoclinic,1,1
+mp-1716,Rh2O3 ,0.5597000000000001,Orthorhombic,1,1
+mp-685995,Ta6Pb4O19 ,0.549199999999999,Monoclinic,0,0
+mp-18196,Ba(TmTe2)2,1.3203,Orthorhombic,0,0
+mp-30293,Sr2GeSe4 ,1.7283,Orthorhombic,1,0
+mp-752423,Na2TiO3 ,3.204999999999999,Monoclinic,0,0
+mp-27456,BaBr2 ,4.3731,Orthorhombic,1,1
+mp-6949,InF3 ,4.0226,Trigonal,1,1
+mp-9868,KCu3S2 ,0.4727,Monoclinic,1,1
+mp-569107,CsErZnTe3 ,1.386499999999999,Orthorhombic,1,1
+mp-9732,BaNaP ,0.8555,Hexagonal,1,0
+mp-23083,KAs4BrO6 ,2.738699999999999,Hexagonal,0,0
+mp-17441,Mg2GeS4,2.58,Orthorhombic,1,1
+mp-707540,ZrP2(HO4)2,4.3746,Tetragonal,0,0
+mp-644486,KAlH4 ,4.8048,Tetragonal,0,1
+mp-505366,AuBr ,1.6885,Tetragonal,1,1
+mp-13992,Cs2Pt3S4 ,1.6386,Orthorhombic,1,1
+mp-28955,Mg3BN3 ,1.3798,Hexagonal,0,1
+mp-27887,Ba3(Si2P3)2,0.405299999999999,Monoclinic,0,1
+mp-776965,Na3Sb(PO4)2,4.1286,Monoclinic,0,0
+mp-21510,K2NaInAs2 ,0.622899999999999,Orthorhombic,1,1
+mp-560082,Ho2Ge2O7 ,3.747699999999999,Tetragonal,0,0
+mp-32787,Ho2S3 ,1.9342,Tetragonal,1,0
+mp-29337,Tl3BS3,1.4222,Monoclinic,0,0
+mp-9008,RbTeAu,1.107899999999999,Orthorhombic,1,1
+mp-571260,AlInI4 ,3.0861,Monoclinic,0,0
+mp-560228,K6Ti2O7,3.4554,Monoclinic,0,0
+mp-23882,Ca3Al2(HO)12,4.257899999999999,Cubic,0,0
+mp-570079,Al5C3N ,0.8374,Hexagonal,1,1
+mp-28545,RbLiO ,2.254299999999999,Orthorhombic,1,1
+mp-29085,Sr5Zr3F22 ,5.3672,Orthorhombic,0,0
+mp-542445,K2PaF7 ,3.8837,Monoclinic,0,1
+mp-973585,LuIO,3.2664,Tetragonal,1,1
+mp-6978,RbHoO2 ,3.625099999999999,Trigonal,1,1
+mp-9666,K2NaGaP2 ,1.307899999999999,Orthorhombic,1,1
+mp-30243,Mg3(HO2)2,3.7698,Trigonal,0,1
+mp-642845,Rb3H5Pt ,2.7373000000000003,Tetragonal,1,1
+mp-26897,LiSn(PO3)3,3.159999999999999,Hexagonal,0,0
+mp-5860,K2HgO2,2.0773,Tetragonal,1,1
+mp-18378,K3AlTe3,2.2172,Monoclinic,0,0
+mp-4044,ErAgSe2 ,1.2801,Orthorhombic,1,1
+mp-11007,CaPSe3 ,2.1335,Monoclinic,1,0
+mp-23446,GeBi2O5 ,2.3222,Orthorhombic,0,0
+mp-942,AuF3,1.5542,Hexagonal,0,0
+mp-559104,Pr4B10O21,4.990399999999999,Monoclinic,0,0
+mp-772968,LiTlPHO3 ,3.992199999999999,Monoclinic,1,0
+mp-15786,KHoS2 ,2.3505000000000003,Trigonal,1,1
+mp-19941,As2PbS4,0.764999999999999,Orthorhombic,0,0
+mp-12902,ErAgTe2,0.8936000000000001,Tetragonal,1,1
+mp-558981,SrBe2(BO3)2,5.3456,Monoclinic,0,0
+mp-17149,Sr3ErRhO6 ,2.192,Trigonal,1,1
+mp-29386,K6Sn2Se7 ,1.9105,Monoclinic,0,0
+mp-542734,Rh2O3,0.6193000000000001,Trigonal,1,1
+mp-29187,Co(SiP)3,1.263199999999999,Monoclinic,1,1
+mp-667,Tl2S ,0.8912000000000001,Trigonal,1,1
+mp-29034,Tl2GeTe3 ,0.468499999999999,Orthorhombic,0,0
+mp-35264,Pr5AgSe8 ,1.453699999999999,Tetragonal,0,1
+mp-28144,SiBi2O5 ,2.7077,Orthorhombic,0,0
+mp-23626,RbLi2(IO3)3,3.8158,Monoclinic,0,0
+mp-755225,Li8ZrO6 ,4.7984,Trigonal,0,0
+mp-1569,Be2C ,1.163699999999999,Cubic,1,1
+mp-28264,RbH3O2 ,4.2519,Orthorhombic,1,1
+mp-6434,RbAlSiO4,4.3806,Orthorhombic,0,0
+mp-554191,Na2UO4 ,1.866,Orthorhombic,1,1
+mp-18183,YSnF7 ,4.8779,Monoclinic,0,0
+mp-554207,TaBi4BrO8 ,1.344599999999999,Orthorhombic,0,0
+mp-1253,BaSe ,1.948799999999999,Cubic,1,1
+mp-558347,K4Ba(SiO3)3,4.2288,Orthorhombic,0,0
+mp-11740,KNdTe2,1.2648,Trigonal,1,1
+mp-5001,Li3BN2 ,3.3953,Monoclinic,1,1
+mp-9330,CdPS3 ,1.772699999999999,Trigonal,0,0
+mp-866311,Bi3BrO4 ,0.9257999999999992,Tetragonal,1,0
+mp-12932,TbTaO4,4.0177,Monoclinic,1,0
+mp-18672,CsDy2Cu3Se5 ,1.1878,Orthorhombic,0,1
+mp-17693,SrCdP2O7 ,3.9048,Monoclinic,0,0
+mp-12984,TbCuSe2 ,0.8242,Monoclinic,1,1
+mp-768221,YBiO3,3.0748,Trigonal,1,1
+mp-561369,K3Bi2(AsO4)3,3.3655,Monoclinic,0,0
+mp-13282,Sm(ErSe2)3,0.8068999999999991,Monoclinic,1,1
+mp-510062,CsSmCdSe3,2.0217,Orthorhombic,1,1
+mp-27628,Te3Cl2 ,1.3552,Monoclinic,1,0
+mp-554146,K14In4O13,1.8384,Monoclinic,0,0
+mp-9843,Sr3(AlP2)2,1.3365,Monoclinic,1,1
+mp-23420,P-43n (218),1.2366,Cubic,1,0
+mp-4024,DyAgTe2,0.895799999999999,Tetragonal,1,1
+mp-28946,Bi3NF6 ,2.971399999999999,Orthorhombic,0,0
+mp-3647,LiGaS2 ,2.9608,Orthorhombic,1,1
+mp-774530,Ba4Ti11O26 ,2.210299999999999,Monoclinic,0,0
+mp-6449,CdSi(CuS2)2,0.9802999999999992,Orthorhombic,1,1
+mp-3347,Be2SiO4 ,5.8262,Trigonal,1,1
+mp-554817,Ba3CaSb2O9,3.1711,Monoclinic,0,0
+mp-4002,Li2ZrF6 ,6.477399999999999,Trigonal,1,1
+mp-642807,TbH2Br ,1.6956,Trigonal,1,1
+mp-510032,Ge3Os2 ,1.1521,Tetragonal,0,0
+mp-510460,CsLaZnTe3 ,1.587399999999999,Orthorhombic,1,0
+mp-667342,Bi12PbO20,1.691799999999999,Cubic,0,0
+mp-554018,Mg3BeAl8O16 ,5.242000000000001,Hexagonal,0,1
+mp-33985,Ba(InTe2)2,0.8637,Tetragonal,1,1
+mp-17812,Sm2SiTeO4,1.8579999999999992,Monoclinic,0,0
+mp-5598,Sm2SO2 ,2.9166,Trigonal,1,1
+mp-4586,LiAlTe2 ,2.4411,Tetragonal,1,1
+mp-24566,MgH8(IO5)2 ,4.160299999999999,Monoclinic,0,0
+mp-23691,Tl(BH)6,4.5269,Cubic,1,1
+mp-23209,SrCl2 ,5.5675,Cubic,1,1
+mp-558536,RbCdAuS2,1.9376,Orthorhombic,1,0
+mp-757911,MgAl10O16 ,4.4934,Trigonal,0,1
+mp-18705,TbSr3RhO6 ,2.1142,Trigonal,1,1
+mp-557835,TlF,2.9859,Tetragonal,0,1
+mp-557650,Sr3P6(N4O3)2,4.4992,Trigonal,0,0
+mp-769610,Ca5Ta4O15 ,3.2814,Trigonal,0,0
+mp-7123,KSb(PSe3)2,1.8059,Monoclinic,0,0
+mp-3317,SmRhO3 ,0.7331000000000001,Orthorhombic,1,1
+mp-5970,Ba(CuS)2 ,0.9028,Orthorhombic,0,1
+mp-556596,AlP3(HO2)6,5.7133,Monoclinic,0,0
+mp-780033,TbNbO4 ,3.421299999999999,Tetragonal,0,0
+mp-680555,TlGaSe2 ,1.6737000000000002,Monoclinic,0,0
+mp-17829,Sr3SmRhO6 ,2.0124,Trigonal,1,1
+mp-28160,Ca3C3Cl2 ,1.2768,Orthorhombic,0,0
+mp-554023,Be2BO3F ,6.3476,Trigonal,0,0
+mp-14406,Ba2Re6S11 ,1.338499999999999,Trigonal,1,1
+mp-3744,NaNbO2 ,1.378099999999999,Hexagonal,1,1
+mp-569879,Cs2Ta6PbCl18 ,1.4561,Trigonal,0,0
+mp-560832,CaH2CO4 ,5.2184,Trigonal,1,0
+mp-677055,ScCuSe2 ,0.8067000000000001,Monoclinic,1,1
+mp-4284,Ho2CdSe4,0.603699999999999,Cubic,0,1
+mp-642831,RbP(HO2)2,5.408099999999999,Tetragonal,0,0
+mp-559767,LiAsO3 ,2.9408000000000003,Monoclinic,0,0
+mp-991652,VCu3Te4 ,0.5741,Cubic,1,1
+mp-13189,SrLuCuS3,1.344199999999999,Orthorhombic,0,1
+mp-546285,NbI3O ,0.8196000000000001,Monoclinic,0,0
+mp-769040,Li5BiO4 ,2.5153,Orthorhombic,0,0
+mp-10368,CoPSe ,0.6371,Orthorhombic,1,1
+mp-2392,Th2Se5 ,0.5162,Orthorhombic,0,1
+mp-8257,Na2ZnS2,2.3678,Orthorhombic,1,1
+mp-12955,HoAgSe2 ,1.271199999999999,Orthorhombic,1,1
+mp-556296,BaS3 ,1.0473,Orthorhombic,0,1
+mp-767431,Na3SrPCO7 ,4.2419,Monoclinic,0,0
+mp-754206,LiBi3(ClO2)2,2.8283,Orthorhombic,0,0
+mp-6192,Ba2DySbO6,3.4688,Cubic,0,0
+mp-23211,PrCl3,4.3454000000000015,Hexagonal,1,1
+mp-4524,ZnGeP2 ,1.1782,Tetragonal,1,1
+mp-849246,Ti2CdO5 ,2.5113,Orthorhombic,0,0
+mp-772869,Ta7InO19 ,2.0301,Hexagonal,0,0
+mp-504838,CsPS3 ,1.9062,Orthorhombic,0,0
+mp-766,As2Ru ,0.4492,Orthorhombic,1,1
+mp-9497,Pr2C(NO)2,3.716999999999999,Trigonal,1,1
+mp-13703,Al4CO4 ,3.823299999999999,Orthorhombic,1,1
+mp-7434,NaCuTe ,0.6322999999999991,Tetragonal,0,1
+mp-6332,Li2TiSiO5 ,3.215299999999999,Tetragonal,0,1
+mp-16705,Pr2O3 ,3.8059,Cubic,1,1
+mp-3319,Mg(RhO2)2,1.1521,Cubic,1,1
+mp-760425,Tb2Zr2O7,2.8475,Cubic,1,0
+mp-755558,BaLa2O4,3.7033,Cubic,1,1
+mp-18385,Lu2Si2O7 ,5.199199999999999,Tetragonal,0,0
+mp-861938,KLaSiS4,2.8686,Monoclinic,0,0
+mp-27017,LiSnPO4 ,3.5011,Orthorhombic,0,0
+mp-30216,K2ReI6 ,0.222999999999999,Monoclinic,0,0
+mp-758096,SbOF3,1.923099999999999,Tetragonal,0,0
+mp-973981,LuBrO ,4.3956,Tetragonal,1,1
+mp-12457,LuCuS2 ,1.693699999999999,Orthorhombic,1,1
+mp-22821,SnP2PbO8,3.769999999999999,Monoclinic,0,0
+mp-22473,NaInSe2,1.019199999999999,Trigonal,1,1
+mp-8603,RbAgO ,1.4174,Tetragonal,1,1
+mp-4718,NdTaO4,4.0275,Monoclinic,1,1
+mp-23474,AgBi3S5 ,0.5262,Monoclinic,0,0
+mp-31273,La2CuS4 ,1.6332,Monoclinic,0,1
+mp-560394,AsPbClO2,3.3353,Orthorhombic,0,0
+mp-557614,Cd(PO3)2,3.7171,Orthorhombic,0,0
+mp-5532,Sr2TiO4 ,1.9141999999999992,Tetragonal,1,1
+mp-16737,Na2BeB2O5 ,4.7156,Monoclinic,0,0
+mp-28726,KYF4 ,6.9712,Trigonal,0,0
+mp-556020,Li3AlF6,8.0807,Orthorhombic,0,0
+mp-33746,SrCO3 ,4.2823,Monoclinic,0,0
+mp-752676,TiBi2O5,2.735999999999999,Orthorhombic,0,0
+mp-504898,Nb2Pd3Se8 ,0.3082,Orthorhombic,1,1
+mp-551243,BaBiIO2 ,2.947,Orthorhombic,1,0
+mp-11739,KLaTe2,1.701299999999999,Trigonal,1,1
+mp-7958,KLaO2,3.8596,Trigonal,1,1
+mp-554821,Tb(IO3)3 ,3.5024,Monoclinic,0,0
+mp-865203,YCuPbS3,1.5938999999999992,Orthorhombic,0,1
+mp-9368,RbTmS2,2.368,Trigonal,1,1
+mp-553308,CsNdO2 ,2.9366000000000003,Hexagonal,1,1
+mp-6684,NaCdPO4 ,2.9173,Orthorhombic,1,0
+mp-754834,Er2TeO2 ,0.487199999999999,Trigonal,1,1
+mp-7505,K2P2Pd,1.0789,Orthorhombic,1,1
+mp-554610,PrZr2F11 ,5.7611,Orthorhombic,0,0
+mp-3056,NaTlO2 ,0.6208,Trigonal,1,1
+mp-637206,AlBiSeCl4,2.542399999999999,Tetragonal,0,0
+mp-16055,KLi3Zr2(Si2O5)6,5.1673,Hexagonal,0,0
+mp-6406,Na2MgSiO4 ,3.7488,Monoclinic,1,1
+mp-23914, CaH12(ClO3)2,4.9868000000000015,Trigonal,0,0
+mp-541155,VS4,0.9239,Monoclinic,0,0
+mp-9089,CsTmS2 ,2.1573,Trigonal,1,1
+mp-7148,K2SrTa2O7,2.0748,Tetragonal,0,0
+mp-558126,LaH4S2NO8 ,4.456799999999999,Monoclinic,0,0
+mp-29265,Nd2(SO4)3,5.4404,Monoclinic,0,0
+mp-4609,HfSiO4 ,5.0221,Tetragonal,1,1
+mp-567928,CsBi3Se5 ,1.4617,Orthorhombic,0,0
+mp-23781,Rb3H(SO4)2,5.251099999999999,Monoclinic,0,0
+mp-24610,LiP(HO2)2,5.8554,Orthorhombic,0,0
+mp-6450,K2LiAlP2 ,1.8853,Orthorhombic,1,1
+mp-6224,LiScSiO4 ,4.612299999999999,Orthorhombic,1,1
+mp-755723,Er2Pb2O7 ,1.16,Cubic,1,1
+mp-760184,Na4Ti5O12 ,2.8184,Monoclinic,0,0
+mp-16870,Ba2CdSe3 ,1.574799999999999,Orthorhombic,1,0
+mp-27220,Tl5SbO5 ,1.4702,Orthorhombic,0,0
+mp-703459,H2O ,5.5287,Hexagonal,0,0
+mp-753575,BaCaI4 ,3.4167,Monoclinic,0,0
+mp-30096,Be2Te7Cl6 ,1.2797,Orthorhombic,0,0
+mp-22906,CsBr ,4.2392,Cubic,1,0
+mp-38117,Ba(GaTe2)2,0.5291,Tetragonal,1,1
+mp-12454,ErCuS2 ,1.629299999999999,Orthorhombic,1,1
+mp-568949,TlBr,2.1678,Orthorhombic,0,1
+mp-540689,Ba2SnS4,2.5033,Orthorhombic,0,0
+mp-3813,Ba2ZrS4 ,0.6025,Tetragonal,0,0
+mp-18073,K7TaAs4 ,1.0407,Orthorhombic,0,0
+mp-17562,Sr3Sc(BO3)3 ,4.626,Trigonal,0,0
+mp-11122,CsDyCdSe3 ,2.0718,Orthorhombic,1,1
+mp-33631,TiZn2O4 ,1.4336,Orthorhombic,0,1
+mp-39215,Zn3GaB6PO12 ,4.2006,Trigonal,1,0
+mp-778001,Tm(ClO4)3 ,5.0805,Hexagonal,0,0
+mp-556283,Na2TiSi4O11 ,2.726199999999999,Tetragonal,0,0
+mp-559637,Dy(IO3)3 ,3.415199999999999,Monoclinic,0,0
+mp-560923,AgPb4ClO4 ,2.4109,Tetragonal,0,1
+mp-558534,Tm3B5O12,5.3919,Orthorhombic,1,0
+mp-504669,KBiF6 ,2.7061,Cubic,0,0
+mp-27845,CaSe2O5 ,3.5053,Orthorhombic,0,0
+mp-698063,Na2P2H2O7 ,5.215,Orthorhombic,0,0
+mp-14232,LiBO2 ,7.281099999999999,Tetragonal,1,1
+mp-11623,LaInO3 ,2.7507,Orthorhombic,1,1
+mp-36582,NaHS ,3.147199999999999,Trigonal,1,1
+mp-510569,CsCeCuS3,0.9341,Orthorhombic,1,1
+mp-28858,Na2HgS2,2.1799,Orthorhombic,0,0
+mp-768419,La(ClO4)3 ,3.9308,Hexagonal,0,0
+mp-28234,CaAl12O19 ,4.3185,Hexagonal,0,0
+mp-561011, Li2Ta2(OF2)3,3.8411,Trigonal,0,0
+mp-555414,Ba3Sb4O,0.301299999999999,Monoclinic,1,0
+mp-17960,BaSm2O4 ,3.184599999999999,Orthorhombic,1,1
+mp-39511,LiCaTa2O6F ,3.7839,Orthorhombic,0,0
+mp-568606,CsErTa6Cl18 ,1.3436,Trigonal,1,0
+mp-6948,KNaO,2.1322,Tetragonal,0,1
+mp-14142,TiZnO3 ,3.106999999999999,Trigonal,1,1
+mp-9499,Sm2C(NO)2,3.9197,Trigonal,1,1
+mp-7769,Th2SN2 ,1.424,Trigonal,1,1
+mp-572702,CsAlF4 ,6.4196,Orthorhombic,0,0
+mp-643941,CaAl2Si(HO2)4,4.359999999999999,Tetragonal,0,0
+mp-2084,Si5Ir3 ,0.9437999999999992,Monoclinic,1,1
+mp-6138,Na2TiSiO5 ,2.9703,Tetragonal,1,1
+mp-984055,Ca7(H6Cl)2,3.6946,Hexagonal,1,1
+mp-554120,DyCuS2,1.6324,Orthorhombic,1,1
+mp-570238,P10Au7I ,0.4964,Trigonal,0,1
+mp-569901,Ge23Mo13,0.0,Tetragonal,0,0
+mp-754199,BaSrI4,2.931499999999999,Monoclinic,1,0
+mp-771750,Sr(IO3)2,3.759099999999999,Monoclinic,0,0
+mp-17621,CsReO4 ,4.2585,Orthorhombic,0,0
+mp-560098,SbO2 ,1.9139,Orthorhombic,0,0
+mp-777297,5H(CN2)2,3.8833,Tetragonal,1,0
+mp-241,CdF2 ,2.8977,Cubic,1,1
+mp-27365,BaBiSe3 ,0.9943999999999992,Orthorhombic,0,0
+mp-12904,HoAgTe2 ,0.8999,Tetragonal,1,1
+mp-28603,NaLiSe ,2.4375,Orthorhombic,1,1
+mp-571162,Ca3(GaN2)2,1.9148,Monoclinic,1,1
+mp-18109,RbDy(SO4)2,5.719399999999999,Orthorhombic,1,0
+mp-768342,SrNb2O4,1.3932,Orthorhombic,1,1
+mp-5005,Mg3(BO3)2,5.143,Orthorhombic,1,1
+mp-6276,K2Cd2(SO4)3,3.8028,Cubic,0,0
+mp-555911,TlAsF6 ,4.606,Trigonal,0,0
+mp-22867,RbBr ,4.192,Cubic,1,1
+mp-13194,PrSbO4 ,2.2095,Monoclinic,0,0
+mp-1217,KSi ,1.3548,Cubic,1,0
+mp-6853,Ca3TaGa3(SiO7)2,3.9122,Trigonal,0,0
+mp-28967,Ba(PdS2)2,0.7791999999999991,Monoclinic,1,0
+mp-510273,CsSbO2,2.3758,Monoclinic,0,1
+mp-28734,Zr6CoCl15 ,1.0883,Cubic,1,0
+mp-561124,Ho3Se4O12F,3.7121,Hexagonal,0,0
+mp-772811,Na2Ge2O5 ,3.211999999999999,Monoclinic,1,0
+mp-558350,Zn2TeBr2O3 ,3.3087,Orthorhombic,0,0
+mp-540773,Ca2GeS4 ,2.5311,Orthorhombic,1,1
+mp-22720,RbSr2Nb3O10 ,1.4661,Tetragonal,0,0
+mp-774715,Ba4LiNb3O12,2.5529,Orthorhombic,0,0
+mp-29888,Er(ClO4)3,5.0285,Hexagonal,0,0
+mp-3249,La4Ti3O12 ,2.918399999999999,Trigonal,0,0
+mp-5449,Na2Ti6O13 ,2.916699999999999,Monoclinic,0,0
+mp-3551,TbAgTe2,0.8994000000000001,Tetragonal,1,1
+mp-683903,Cs3Nb2AsSe11 ,0.9588,Monoclinic,1,0
+mp-9367,RbErS2,2.3521,Trigonal,1,1
+mp-29223,Ba3Si5O13 ,4.742100000000001,Monoclinic,0,0
+mp-7392,Na2AgSb,0.654999999999999,Orthorhombic,1,1
+mp-757450,Sc2Ge2O7,3.7047,Cubic,0,1
+mp-15003,Ca3HfSi2O9,4.7635000000000005,Monoclinic,0,0
+mp-14969,BaErCuS3 ,1.157499999999999,Orthorhombic,1,1
+mp-14753,Li7TaN4 ,3.4294,Cubic,1,1
+mp-30091,MgB9N ,1.6752999999999991,Trigonal,1,1
+mp-438,Nd2S3 ,0.759599999999999,Orthorhombic,1,1
+mp-19992,La6UO12 ,1.972799999999999,Trigonal,1,0
+mp-505712,CsHoZnSe3,2.1295,Orthorhombic,1,1
+mp-23443,MnTlI3 ,0.0,Orthorhombic,0,0
+mp-559982,Na2AlZnF7 ,4.8226,Orthorhombic,0,0
+mp-754326,NaAgO2 ,0.5911000000000001,Monoclinic,1,1
+mp-11000,CaB4O7,6.3176,Orthorhombic,1,1
+mp-31287,Tl3PdBr5 ,1.288599999999999,Orthorhombic,0,0
+mp-5818,Tl4SnS4 ,1.788199999999999,Monoclinic,0,0
+mp-541041,NdAg(PO3)4 ,3.857,Monoclinic,0,0
+mp-556896,Ba4AgAuO6,1.8623,Orthorhombic,1,0
+mp-760795,Al10ZnO16,4.326799999999999,Trigonal,0,1
+mp-20397,Sr(InTe2)2,0.883799999999999,Orthorhombic,1,1
+mp-780395,Cd(BO2)2,2.908399999999999,Orthorhombic,0,0
+mp-23291,PbCl2 ,3.7939,Orthorhombic,1,1
+mp-866481,Co2(SnTe)3 ,0.4171,Trigonal,1,1
+mp-15794,LiYSe2 ,1.523899999999999,Trigonal,1,1
+mp-774749,RbNa3Li12Ti4O16 ,4.4225,Tetragonal,0,1
+mp-780561,La3Ga5O12 ,2.8686,Cubic,1,0
+mp-27303,NaAg3O2 ,0.6596000000000001,Orthorhombic,1,0
+mp-774752,Li2MgTi3O8,3.3209,Cubic,0,1
+mp-647579,ZnBr2 ,3.2214,Tetragonal,0,0
+mp-29596,Ca3AlN3 ,2.4565,Monoclinic,1,1
+mp-28168,Th6CBr14,0.7041000000000001,Orthorhombic,1,0
+mp-5884,TmPO4 ,5.7221,Tetragonal,1,1
+mp-23023,LaBrO ,3.7256,Tetragonal,1,1
+mp-27214,CsSnBr3 ,0.5984,Cubic,0,0
+mp-21365,InSbS3 ,1.476099999999999,Orthorhombic,1,0
+mp-9275,Th2Ta6O19 ,3.239,Hexagonal,0,0
+mp-4473,Ba(CuSe)2,0.4887,Orthorhombic,1,1
+mp-17597,Ca(ScS2)2,1.286299999999998,Orthorhombic,1,1
+mp-650442,Tl3AgTe2 ,0.5357000000000001,Monoclinic,0,1
+mp-754578,TmGaO3,3.9298,Orthorhombic,1,1
+mp-649453,Ca3BCNCl2 ,2.1079,Orthorhombic,0,0
+mp-559783,Na3B(PO4)2 ,5.3156,Monoclinic,0,0
+mp-675601,Al3NO3 ,4.410799999999999,Orthorhombic,1,1
+mp-568134,Cs2CdI4 ,2.8586,Orthorhombic,0,0
+mp-28911,BaReH9,3.8349,Hexagonal,1,1
+mp-2530,Li2Te ,2.4914,Cubic,1,1
+mp-17560,Na2UO4,2.0747,Orthorhombic,1,0
+mp-3446,SrTm2O4,3.8156,Orthorhombic,1,1
+mp-12894,Y2SO2,2.9983,Trigonal,1,1
+mp-961706,TiSiPt ,0.9013,Cubic,1,1
+mp-23043,RbPb2Br5 ,3.0406,Tetragonal,0,0
+mp-10492,Rb2SiF6 ,6.9955,Cubic,1,1
+mp-755515,Lu2TeO6 ,2.9817,Trigonal,1,0
+mp-989614,LaReN3 ,1.4312,Monoclinic,1,0
+mp-9263,KErTe2,1.3304,Trigonal,1,1
+mp-23363,NaAlCl4,5.155699999999999,Orthorhombic,0,0
+mp-555044,DyCuS2 ,1.6186999999999991,Orthorhombic,1,1
+mp-733455,Li3H6Rh ,2.6058,Orthorhombic,0,1
+mp-13039,Tm2C(NO)2,4.0331,Trigonal,1,1
+mp-20845,Dy2Sn2O7 ,2.7123,Cubic,1,1
+mp-18243,K2Si3SnO9 ,3.8295,Hexagonal,0,0
+mp-6250,BaTm2ZnO5,3.0578,Orthorhombic,1,0
+mp-28051,SbTeI,0.8429000000000001,Monoclinic,0,0
+mp-558323,SrBi2B2O7,2.8040000000000003,Hexagonal,0,0
+mp-9664,K3BP2 ,1.6658,Monoclinic,1,0
+mp-3051,Mg2GeO4 ,3.4021,Orthorhombic,1,1
+mp-11673,Sc2(SeO4)3,3.546399999999999,Monoclinic,0,0
+mp-562057,Cs2Ca2Be3F12 ,7.2156,Cubic,0,0
+mp-17660,SrPrCuSe3,1.0231,Orthorhombic,1,0
+mp-570256,Ag2HgI4 ,1.100399999999999,Tetragonal,1,1
+mp-568385,SrLiGaN2 ,2.2221,Monoclinic,0,1
+mp-569028,Rb2SnBr6 ,1.3166,Cubic,0,0
+mp-27749,K2Sb4S7 ,1.5478,Monoclinic,0,0
+mp-5475,NaTaN2 ,1.276499999999999,Trigonal,0,1
+mp-973451,Nd2BiO2 ,0.0,Tetragonal,0,1
+mp-772217,ErInO3 ,1.9651,Hexagonal,1,0
+mp-557844,KMg4(PO4)3,5.0625,Orthorhombic,1,0
+mp-554157,KNaZnP2O7,4.4030000000000005,Monoclinic,0,0
+mp-11742,CsNdTe2 ,1.291999999999999,Trigonal,0,1
+mp-772191,Tm2TeO6 ,3.0533,Trigonal,0,0
+mp-753260,LaAgO2 ,2.826699999999999,Trigonal,0,1
+mp-680711,Ca4Te5O14 ,2.9383999999999992,Orthorhombic,0,0
+mp-20079,CaPbO3 ,0.933199999999999,Orthorhombic,0,1
+mp-768283,UAs2H6O11,2.547,Monoclinic,0,0
+mp-20210,Ag2PbO2 ,1.3818,Monoclinic,1,1
+mp-6875,BaNa2Al4(SiO4)4,4.7346,Orthorhombic,0,0
+mp-769173,PrOF ,4.437099999999999,Trigonal,1,1
+mp-626151,YHO2 ,4.0468,Monoclinic,0,0
+mp-560635,Cs2MoS4,1.735799999999999,Orthorhombic,1,0
+mp-755340,Tb2SeO2 ,2.1407,Trigonal,1,1
+mp-8753,K4HgP2 ,0.9356,Trigonal,1,1
+mp-550514,LaTaN2O,0.671299999999999,Monoclinic,0,0
+mp-30244,Mg2H2O3,3.5665,Trigonal,0,1
+mp-4851,Sr(GaO2)2,3.0697,Monoclinic,0,0
+mp-23979,K3H(SeO4)2,3.5728,Monoclinic,0,0
+mp-770419,Sr2Zr7O16 ,3.8966,Trigonal,0,0
+mp-6481,Na2ZnSi3O8,3.9475,Monoclinic,0,0
+mp-9273,K3Sb2Au3,1.1046,Trigonal,1,1
+mp-3704,Cs2Mn3Se4 ,0.0,Orthorhombic,1,1
+mp-6167,Ba2NdNbO6 ,2.987299999999999,Monoclinic,0,0
+mp-556659,La3TiCl5O4,3.341999999999999,Orthorhombic,0,0
+mp-754599,BaTm2O4 ,3.229699999999999,Orthorhombic,1,1
+mp-28501,K2(NbCl3)3,1.086799999999999,Monoclinic,0,0
+mp-972831,SiGeN2O ,3.6574,Monoclinic,1,0
+mp-6692,Ba2PrSbO6 ,3.711999999999999,Trigonal,0,0
+mp-7941,Li6TeO6,2.798,Trigonal,0,1
+mp-643005,Cs3H5Pt ,2.1718,Tetragonal,0,1
+mp-4445,Hg3AsO4 ,0.5021,Monoclinic,0,0
+mp-555808,Zn8B3H3O14 ,2.6509,Trigonal,0,0
+mp-22981,TlIO3 ,2.763299999999999,Trigonal,0,0
+mp-7233,La2SeO2 ,2.4067,Trigonal,1,1
+mp-27480,Sn2OF2 ,2.6708,Monoclinic,0,0
+mp-23752,Cs2MgH4 ,2.9953000000000003,Tetragonal,1,1
+mp-21084,In6Ga2PtO8 ,0.567199999999999,Cubic,1,1
+mp-29299,TeSeO4 ,2.9515,Monoclinic,0,0
+mp-558325,K2YNb5O15 ,1.6128,Orthorhombic,0,0
+mp-18255,RbSm(PO3)4,5.2964,Monoclinic,0,0
+mp-561125,Ba5P3BrO12,4.963699999999999,Hexagonal,0,0
+mp-30133,Ba(CuTe)2,0.600699999999999,Orthorhombic,1,1
+mp-568191,SrLuCuSe3 ,1.122699999999999,Orthorhombic,1,1
+mp-555816,KDy(SeO4)2 ,3.591,Orthorhombic,0,0
+mp-9765,Nd2Pt2O7 ,1.0795,Cubic,1,1
+mp-17024,Ba2NbN3,1.9547999999999992,Monoclinic,0,0
+mp-12453,HoCuS2 ,1.607299999999999,Orthorhombic,1,1
+mp-10782,TbRbSe2 ,1.9336,Trigonal,1,1
+mp-2741,CaF2 ,7.1157,Cubic,1,1
+mp-11917,Mg(BeN)2 ,4.0657,Trigonal,1,1
+mp-23009,Ca2BrN ,2.4254,Trigonal,1,1
+mp-10547,RbAuO,1.4283,Tetragonal,0,1
+mp-27576,Sc2GeO5 ,4.1263,Monoclinic,0,0
+mp-556623,K2TiOF4,3.031599999999999,Orthorhombic,0,0
+mp-17718,CsKNa2Li12(SiO4)4,4.872199999999999,Tetragonal,0,1
+mp-29213,Cd2Ge7O16,2.202199999999999,Tetragonal,0,0
+mp-11123,CsYHgSe3 ,1.3946,Orthorhombic,1,1
+mp-961693,ZrInAu ,0.4412,Cubic,1,1
+mp-9824,Ho2Se3,1.315,Orthorhombic,1,1
+mp-18629,NaTmGeO4,3.6137,Orthorhombic,1,0
+mp-980659,Tl3BiCl6 ,2.8585000000000003,Tetragonal,0,0
+mp-755416,HoGaO3 ,3.6066,Orthorhombic,1,1
+mp-865972,KTm2Cu3Se5 ,1.048999999999999,Orthorhombic,1,1
+mp-7950,ThSeO ,0.769,Tetragonal,1,1
+mp-610517,Ag2S ,1.000699999999999,Monoclinic,0,0
+mp-209,Er2Se3 ,0.7923,Orthorhombic,1,1
+mp-23154,Br ,1.3261999999999992,Orthorhombic,0,0
+mp-755082,Sr3(AsO4)2,3.785999999999999,Trigonal,0,0
+mp-570700,Hf3Tl2(CuSe4)2,0.5025000000000001,Monoclinic,0,0
+mp-9250,RbLiSe ,2.3089,Tetragonal,1,1
+mp-560010,Rb2Ga2B2O7 ,3.889199999999999,Monoclinic,0,0
+mp-504535,InHO2 ,1.7764000000000002,Orthorhombic,1,1
+mp-510,TaO2 ,0.4284,Tetragonal,0,0
+mp-9385,RbAu3Se2,1.7326,Trigonal,1,1
+mp-28952,PdSO4,1.0661,Monoclinic,0,0
+mp-8128,NaNdO2,3.3353,Tetragonal,1,1
+mp-559768,La2Ti2O7,2.9165,Monoclinic,0,0
+mp-555585,BaF2 ,6.8553000000000015,Orthorhombic,1,1
+mp-29521,RbBiO2 ,2.1259,Monoclinic,1,1
+mp-540635,BaSn(GeO3)3,2.7866,Hexagonal,0,0
+mp-38695,TbLiSe2 ,1.6332,Tetragonal,1,1
+mp-759342,Nb9AsO25 ,2.2196,Tetragonal,0,0
+mp-560665,LaPb6BrO7 ,1.930499999999999,Orthorhombic,0,0
+mp-10334,Pr(CdP)3,0.5144000000000001,Hexagonal,0,1
+mp-680410,K3Nb2S11,1.3870999999999991,Monoclinic,0,0
+mp-557237,K5In3(SiO3)7,3.6681,Orthorhombic,0,0
+mp-556776,Sr(PO3)2,5.8045,Monoclinic,0,0
+mp-4764,Pr2SeO2,2.1691,Trigonal,1,1
+mp-21137,Ca2PbO4 ,1.4813,Orthorhombic,1,1
+mp-541272,LiGe2(PO4)3,3.442199999999999,Trigonal,0,0
+mp-27904,FeSbS ,0.547,Monoclinic,1,1
+mp-4975,RbZnF3 ,4.0784,Hexagonal,1,0
+mp-4535,PrGaO3 ,3.3909,Orthorhombic,1,1
+mp-625472,Tm(HO)3,3.611399999999999,Hexagonal,0,0
+mp-8393,Tl3SbS3 ,1.592,Trigonal,0,1
+mp-8234,BaTe3,0.8198000000000001,Tetragonal,0,0
+mp-546621,ErBi2BrO4,1.357,Tetragonal,1,1
+mp-7808,BaP3 ,0.5735,Monoclinic,1,1
+mp-12931,SmTaO4 ,3.9923,Monoclinic,1,1
+mp-2437,IrF3 ,1.141099999999999,Trigonal,0,1
+mp-4730,Ga2HgSe4 ,0.9168,Tetragonal,1,1
+mp-31119,TbScO3 ,4.4378,Orthorhombic,1,1
+mp-605863,AgSbPbS3 ,0.5552,Monoclinic,0,0
+mp-5694,NaHoS2 ,2.3055,Trigonal,1,1
+mp-14588,Na2PtSe2 ,0.8690000000000001,Orthorhombic,0,1
+mp-766208,Ba3LiTi5Nb3O21,2.1226,Orthorhombic,0,0
+mp-4690,K3TaO8,3.04,Tetragonal,0,0
+mp-680731,Tl2Te3 ,0.6477,Monoclinic,0,1
+mp-8511,PF5 ,7.1089,Hexagonal,1,0
+mp-42190,K2NaTiOF5 ,3.964,Tetragonal,0,0
+mp-557955,Ca3Al4ZnO10,3.544699999999999,Orthorhombic,0,0
+mp-756281,TmAlO3 ,6.078899999999999,Orthorhombic,1,1
+mp-989631,LaMoN3 ,2.0751,Monoclinic,0,0
+mp-774742,Li3Sc2(PO4)3,4.6701,Monoclinic,0,0
+mp-1270,Dy2S3 ,0.593799999999999,Orthorhombic,1,1
+mp-557250,HgINO3,1.9661,Orthorhombic,0,0
+mp-624,B6As ,2.6454,Trigonal,1,1
+mp-14334,K2RbPdF5 ,2.2313,Tetragonal,0,0
+mp-560271,AlCuAsO5 ,0.4476,Monoclinic,0,0
+mp-643257,K2H4Pd,2.3826,Tetragonal,1,1
+mp-7155,CsErZnSe3 ,2.1566,Orthorhombic,1,1
+mp-27439,TmIO ,3.3943,Tetragonal,1,1
+mp-6389,NaLa2RuO6 ,0.4775,Monoclinic,1,0
+mp-28266,P2Pd ,0.341899999999999,Monoclinic,1,1
+mp-574070,Cs4Pb9 ,0.9064999999999992,Monoclinic,0,0
+mp-621964,RbK2BiSe3 ,2.1311,Cubic,1,0
+mp-13206,PrZnPO ,1.1635,Trigonal,1,1
+mp-557473,K5LiGe2O7 ,3.3197,Monoclinic,0,0
+mp-23828, Sr7(H6Br)2,3.7026,Hexagonal,1,1
+mp-558206,K9U6BiO24 ,1.7081,Cubic,0,0
+mp-558336,Ho2O3 ,4.0575,Monoclinic,1,1
+mp-557019,RbErSeCl2O3 ,4.3055,Monoclinic,0,0
+mp-542096,CrPS4 ,0.0,Monoclinic,0,0
+mp-567983,ErCuPbSe3 ,1.133099999999998,Orthorhombic,1,1
+mp-756646,SrLu2O4,3.5547,Cubic,1,1
+mp-753662,K2Mg2O3 ,3.078899999999999,Monoclinic,1,0
+mp-14093,TbOF ,4.9318,Trigonal,1,1
+mp-38011,KHS ,3.2247999999999992,Trigonal,1,1
+mp-23057,CsLiBr2 ,4.1375,Tetragonal,0,0
+mp-560420,K3Bi2(PO4)3,3.8091,Monoclinic,0,0
+mp-14283,Sr2InF7 ,4.9452,Monoclinic,0,0
+mp-23852,Na3H5(CO4)2,4.6176,Monoclinic,0,0
+mp-27132,Zr2P2O9 ,4.1075,Orthorhombic,0,0

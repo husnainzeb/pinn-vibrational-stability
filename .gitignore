@@ -209,7 +209,6 @@ __marimo__/
 datasets
 logs
 models
-nn_for_born_criteria_7.ipynb
-plotting.ipynb
-create_benchmark_dataset.py
 .DS_Store
+scripts/
+plots
