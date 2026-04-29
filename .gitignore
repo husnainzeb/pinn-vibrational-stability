@@ -206,9 +206,12 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-datasets
+datasets/*
 logs
 models
 .DS_Store
 scripts/
 plots
+
+!datasets/benchmark_dataset.csv
+!datasets/new_combined_dataset_with_born_criteria.csv
